@@ -1,13 +1,33 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { InstructionComponent } from './instruction/instruction.component';
+import { SectionaComponent } from './sectiona/sectiona.component';
+import { SectiondComponent } from './sectiond/sectiond.component';
+import { SectioneComponent } from './sectione/sectione.component';
+import { SectionfComponent } from './sectionf/sectionf.component';
+import { SectiongComponent } from './sectiong/sectiong.component';
+import { SectionhComponent } from './sectionh/sectionh.component';
+import { SectioniComponent } from './sectioni/sectioni.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,InstructionComponent,SectionaComponent, SectiondComponent, SectioneComponent, SectionfComponent, SectiongComponent, SectionhComponent, SectioniComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'applicationform';
+
+  ngOnInit(): void {
+    console.log('hello snehaaaaa!')
+    //call the method
+  }
+
+  getDateFormService(){
+    //call the service
+
+    //console the json data
+  }
+
 }
