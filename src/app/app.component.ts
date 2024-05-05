@@ -8,11 +8,18 @@ import { SectionfComponent } from './sectionf/sectionf.component';
 import { SectiongComponent } from './sectiong/sectiong.component';
 import { SectionhComponent } from './sectionh/sectionh.component';
 import { SectioniComponent } from './sectioni/sectioni.component';
+import {SectionbComponent} from "./sectionb/sectionb.component";
+import {SectioncComponent} from "./sectionc/sectionc.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,InstructionComponent,SectionaComponent, SectiondComponent, SectioneComponent, SectionfComponent, SectiongComponent, SectionhComponent, SectioniComponent],
+  imports: [RouterOutlet, InstructionComponent,
+    SectionaComponent,SectionbComponent,
+    SectioncComponent ,SectiondComponent,
+    SectioneComponent, SectionfComponent,
+    SectiongComponent, SectionhComponent,
+    SectioniComponent, SectionbComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

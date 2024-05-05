@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: #fff;
+}
+.SectionC{
+  margin: 90px;
+}
+.text p{
+  font-size: 17px;
+  margin: 8px;
+}
+.text p b{
+  margin-right: 2px;
+}
+.qualification{
+  margin-top: 20px;
+}
+.qualification .text p{
+  font-size: 13.7px;
+}
+.qualification .text p b{
+  font-size: 17px;
+}
+.Pre-requisite .text p{
+  font-size: 13.7px;
+}
+.Pre-requisite .text p b{
+  font-size: 17px;
+}
+.key{
+  display: flex;
+  align-items: center;
+}
+.qualification-body{
+  background-color: #d2d3d3;
+  padding: 10px 15px 12px 15px;
+  border-radius: 12px;
+}
+.key .p1{
+  width: 220px;
+}
+.key .p2{
+  width: 145px;
+}
+.key .p3{
+  width: 135px;
+}
+.key .p4{
+  width: 375px;
+}
+.key .p5{
+  width: 190px;
+}
+.p5 .tiny{
+  font-size: 12px;
+}
+div.example{
+  background-color: #5a5a5d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+  padding: 3px;
+}
+.example .eg1{
+  width: 250px;
+  margin-left: 5px;
+}
+.example .eg2{
+  width: 160px;
+  margin-left: 5px;
+}
+.example .eg3{
+  width: 150px;
+  margin-left: 5px;
+}
+.example .eg4{
+  width: 430px;
+  margin-left: 5px;
+}
+.example .eg5{
+  width: 205px;
+  margin-left: 5px;
+}
+.divide{
+  height: 28px;
+  width: 2px;
+  background-color: #d2d3d3;
+}
+.key{
+  margin-bottom:6px;
+  display: flex;
+  align-items: center;
+}
+.key p{
+  margin-left: 3px;
+  color: #000000;
+  font-size: 14px;
+}
+.inputs{
+  margin-top: 15px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 3px;
+  align-items: center;
+  display: flex;
+}
+.inputs input{
+  background-color: #dee5ff;
+  border-color: #dee5ff;
+  border-style: solid;
+  margin: 2px;
+  height: 90%;
+  /* width: 99.5%; */
+}
+.inputs input:hover{
+  border-color : #000000;
+  border-style: solid;
+  background-color: #fff;
+}
+.inputs .in1{
+  width: 220px;
+}
+.inputs .in2{
+  width: 138px;
+}
+.inputs .in3{
+  width: 135px;
+}
+.inputs .in4{
+  width: 380px;
+}
+.inputs .in5{
+  width: 185px;
+}
+.Pre-requisite{
+  margin-top: 20px;
+}
+.Pre-requisite .example{
+  padding:10px 0;
+}
+.confirmation{
+  display: flex;
+  margin-top: 5px;
+}
+.confirmation b{
+  font-size: 17px;
+}
+.confirmation label{
+  margin-left: 5px;
+}
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: 20px;
+  background-color: #dee5ff;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-round:hover{
+  border: #000000 solid 3px;
+}
+.checkbox-round:checked {
+  background-color: gray;
+}
