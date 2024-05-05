@@ -1,0 +1,1216 @@
+.banner .image img {
+  width: 400px;
+}
+
+.section-a .title::after,
+.section-b .title::after,
+.section-c .title::after,
+.section-d .title::after,
+.section-e .title::after,
+.section-f .title::after,
+.section-g .title::after,
+.section-h .title::after,
+.section-i .title::after {
+  width: 100%;
+  content: "";
+  height: 10px;
+  display: block;
+  background: #b2292d;
+  margin-top: -37px;
+}
+
+.banner,
+.section-a,
+.section-b,
+.section-c,
+.section-d,
+.section-e,
+.section-f,
+.section-g,
+.section-h,
+.section-i {
+  width: 90%;
+  margin: auto;
+}
+.banner .top,
+.banner .bottom form,
+.section-a .column1,
+.section-a .column2,
+.section-a .column3,
+.section-a .column4,
+.section-a .column5,
+.section-a .form-control,
+.section-a .form1 .col2,
+.section-a .int-student .container,
+.section-f .container,
+.section-e .container,
+.section-h .left .form-control1,
+.section-i .form-control1,
+.section-d .question,
+.section-d .bottom,
+.section-d .bottom .form-control,
+.section-g .contact,
+.section-g .col1,
+.section-g .col2,
+.section-g .form-control,
+.section-h .container .col1,
+.section-h .container .col2,
+.section-h .form-control,
+.section-h .container,
+.footer {
+  align-items: center;
+  display: flex;
+}
+.section-i .container,
+.banner .bottom,
+.section-i .bottom,
+.section-h .left .form-control2{
+  display: flex;
+}
+.section-i .bottom{
+  align-items: end;
+  gap: 60px;
+}
+.banner .top {
+  justify-content: space-between;
+  gap: 38%;
+}
+
+.banner .top span {
+  color: #b2292d;
+  font-size: 42px;
+}
+
+.banner .top h1 {
+  font-size: 26px;
+}
+
+.banner .items ul {
+  list-style-type: auto;
+}
+
+.banner .items {
+  padding: 20px;
+  background-color: #d2d3d4;
+}
+.section-d .question,
+.banner .bototm{
+  gap: 30px;
+}
+.banner .bottom {
+  padding-left: 15px;
+  background-color: #ffffff;
+}
+
+.banner .form input,
+.section-a input[type="text"],
+.section-i input[type="text"],
+.section-h input,
+.section-g input,
+.section-g .contact form {
+  width: 100%;
+}
+
+.section-a .form1 .col2 .date {
+  width: 60%;
+}
+
+.section-d .text p,
+.section-f .text1,
+.section-f .text2,
+.section-g li,
+.section-i p  {
+  text-align: justify;
+}
+
+.banner form {
+  gap: 60px;
+  padding: 0 20px 10px;
+}
+
+.banner .form-control {
+  display: grid;
+  gap: 8px;
+}
+
+.banner .bottom .title,
+.section-a h3,
+.section-b h3,
+.section-c h3,
+.section-d h3,
+.section-e h3,
+.section-f h3,
+.section-g h3,
+.section-h h3,
+.section-i h3,
+.footer {
+  color: #ffffff;
+}
+.banner .bottom .title,
+.footer{
+  background-color: #b2292d;
+
+}
+.banner .bottom .title {
+  width: 160px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px 20px;
+}
+
+.banner .form-control label,
+.banner .stamp,
+.section-a .bold {
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+.section-a .full-name label {
+  width: 14%;
+}
+
+.banner input {
+  padding: 15px;
+}
+
+.section-a .int-student input {
+  border: 3px solid #ffffff !important;
+}
+
+.section-a .int-student .bold {
+  padding-top: 15px;
+}
+
+.banner input,
+.section-a input {
+  border-radius: 4px;
+}
+
+.dashed-line {
+  border-left: 3px dashed #000;
+  height: 132px;
+}
+
+.section-a h3,
+.section-b h3,
+.section-c h3,
+.section-d h3,
+.section-e h3,
+.section-f h3,
+.section-g h3,
+.section-h h3,
+.section-i h3 {
+  padding: 3px 20px;
+  width: 580px;
+  border-radius: 10px;
+  background: #b2292d;
+}
+
+.section-a .column2 .form-control,
+.section-a  .column3 .form-control,
+.section-a .form2 .column4 .form-control,
+.section-a .form2 .column5 .form-control,
+.section-i .applicant,
+.section-i .parents,
+.section-i .applicant,
+.section-i .parents,
+.section-a .int-student .col-1,
+.section-a .int-student .col-2,
+.section-h .left,
+.section-h .right,
+.section-g .form-control,
+.section-h .col1 .form-control,
+.section-h .col2 .form-control  {
+  width: 50%;
+}
+
+.section-a .column5 {
+  gap: 50px;
+}
+
+.section-a .form1 .column3 p,
+.section-a .form1 .col2 .date {
+  width: 63%;
+}
+
+.section-a .form1 .column1,
+.section-i .container  {
+  gap: 80px;
+}
+
+.section-a .form1 .col2 {
+  gap: 50px;
+}
+
+.section-a .form1 .column3 .number {
+  width: 40%;
+}
+
+.section-a input[type="text"],
+.section-a .int-student input[type="checkbox"],
+.section-a .form2 label,
+.section-a .form1 p {
+  margin-left: 10px;
+}
+
+.section-a .column2 input,
+.section-a .form2,
+.section-a .form2 .column1,
+.section-a .form2 .column3,
+.section-a .form2 .column4,
+.section-a .form2 .column5,
+.section-a .form2 .address,
+.section-h .left .form-control2,
+.section-h .left .col1,
+.section-h .left .col2,
+.section-i .bottom,
+.section-i .form-control1,
+.dashed-line,
+.section-a .line,
+.section-g .col2 {
+  margin-top: 10px;
+
+}
+
+.section-a .form2 .address label {
+  width: 21%;
+}
+
+.section-a .int-student .input1 {
+  width: 43%;
+}
+
+.section-a .int-student .input2 {
+  width: 58%;
+}
+
+.section-a .int-student .input3 {
+  width: 65%;
+}
+
+.section-a .column6,
+.section-a .int-student .bold,
+.section-h .left p,
+.section-e .doc p
+{
+  line-height: 0;
+}
+
+.section-a .column5 span {
+
+  margin-left: 23px;
+}
+
+.section-a .int-student,
+.section-a .line,
+.section-d .bottom,
+.section-g .contact,
+.section-h .right,
+.section-h .left .form-control1,
+.section-h .left .form-control2,
+.section-h .left .col1,
+.section-h .left .col2,
+.section-i .bottom,
+.section-i .form-control1,
+.footer {
+  border-radius: 8px;
+}
+.section-h .right,
+.section-h .left .form-control1,
+.section-h .left .form-control2,
+.section-h .left .col1,
+.section-h .left .col2,
+.section-a .int-student,
+.section-i .form-control1
+{
+  background-color: #e7e7e7;
+}
+.section-a .int-student {
+  padding: 0 20px 0;
+  position: relative;
+  margin-top: 40px;
+}
+
+.section-a .line {
+  width: 89%;
+  height: 70px;
+  margin-left: -5px;
+  position: absolute;
+}
+
+.section-a .int-student .container {
+  margin-top: -15px;
+}
+
+
+.section-f .container,
+.section-e .container {
+  gap: 15px;
+}
+
+.section-f .question p,
+.section-e .question p,
+.section-g label,
+.section-g p,
+.section-i .title1,
+.section-i form label,
+.section-d .text span,
+.section-d .question p,
+.section-h label,
+.section-h p,
+.section-h .left span,
+.section-i form span
+{
+  font-weight: 600;
+}
+
+.section-h p {
+  font-size: 13px;
+
+}
+
+.section-d .question {
+  margin-top: -10px;
+}
+
+.section-d .bottom .input {
+  padding: 4px;
+}
+
+.section-e .doc input {
+  margin-left: 20px;
+  width: 68%;
+  border-radius: 4px;
+}
+
+.section-e .doc p,
+.section-d .bottom span,
+.section-h .left span,
+.section-i form span,
+.section-a .int-student span,
+.section-a .column5 span,
+.section-a .form2 .address span,
+.section-a .form-control span   {
+  display: block;
+  font-size: 12px;
+}
+.section-a .column6{
+  display: block;
+}
+.section-d .bottom,
+.section-a .line {
+  background: #f0d4d5;
+}
+
+.section-g .contact,
+.section-i .verify,
+.section-i .bottom,
+.section-i .form-control1,
+.footer {
+  padding: 10px 20px;
+}
+
+.section-g .contact {
+  margin-top: 30px;
+  gap: 10%;
+}
+.section-g .col1,
+.section-g .col2{
+  gap: 15px;
+}
+
+
+.section-g span,
+.section-i span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section-h .left .form-control1 label {
+  width: 33%;
+}
+.section-d .bottom,
+.section-h .container,
+.banner .bottom{
+  gap: 10px;
+}
+.section-h .container {
+  padding-top: 40px;
+}
+.section-h input,
+.section-g input,
+.section-i form input,
+.section-e .button input,
+.section-e .doc input
+{
+  padding: 8px;
+}
+.section-h input,
+.section-g input,
+.section-i form input,
+.section-e .button input,
+.section-d .bottom input,
+.section-e .doc input,
+.banner input,
+.section-a input {
+  border: 3px solid #e6e7e7;
+  background-color: #e2e5f0;
+}
+.section-h input {
+  border: none !important;
+}
+.section-h .right {
+  padding: 10px;
+}
+.section-h .left .form-control1,
+.section-h .left .form-control2,
+.section-h .left .col1,
+.section-h .left .col2,
+.section-d .bottom,
+.section-a input
+{
+  padding: 5px;
+}
+.section-h .right .address input {
+  height: 55px;
+}
+.section-h .form-control .label1 {
+  width: 350px;
+}
+.section-i .verify,
+.section-i .bottom,
+.section-g .contact {
+
+  background-color: #f0d4d5;
+}
+.section-i .form-control1 label {
+  width: 30%;
+}
+.footer {
+  margin-top: 10%;
+  justify-content: space-around;
+
+}
+/*Bijay karki section b codes */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+/* body{
+    background-color: #fff;
+} */
+/*
+.sectionB{
+    margin: 65px;
+}
+.intake{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #f0d4d5;
+    border-radius: 12px;
+}
+.intake label{
+    font-size: 20px;
+}
+input{
+    background-color: #dee5ff;
+    border-radius: 6px;
+    border: solid #dee5ff;
+}
+input:hover{
+    border: 2px solid #000;
+}
+input.semester{
+    width: 10%;
+    border-radius:6px;
+    border-color: #ef3238;
+    border: solid 2px #ef3238;
+}
+label.year{
+    padding-left: 50px;
+}
+.text{
+    margin-top:10px;
+    margin-left:12px;
+}
+.text #small{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.programmes{
+    padding: 17px;
+    background-color: #d2d3d3;
+    border-radius: 13px;
+    margin-top: 18px;
+}
+.programme{
+    display: flex;
+    margin: 0px;
+}
+.programme label{
+    width: 200px;
+    height: 35px;
+}
+.programme p{
+    font-size: 17px;
+    margin: 2px;
+}
+.programme input{
+    width: 100%;
+}
+.programme .eg{
+    font-size: 10px;
+}
+#Specialisation{
+    display: flex;
+    margin-top: 13px;
+}
+.applying{
+    margin-top: 11px;
+}
+.applying b{
+    font-size: 18px;
+    margin: 10px auto auto 12px;
+}
+.applying label{
+    margin-left: 1px;
+}
+.applying p{
+    font-size: 12.7px;
+    margin:10px auto auto 12px;
+}
+.choices{
+    padding: 17px;
+    background-color: #d2d3d3;
+    border-radius: 13px;
+    margin:10px auto;
+}
+.choices p{
+    font-size: 17px;
+}
+.Complementary{
+    display: flex;
+    margin:14px auto;
+}
+.Complementary input{
+    width: 100%;
+}
+.Complementary label{
+    height: 35px;
+}
+p.extension{
+    margin-left: 2px 0px 0px 9px;
+    font-size: 17px;
+    width: 150px;
+    height: 35px;
+}
+.note{
+    margin:10px auto auto 12px;
+}
+.note p{
+    font-size: 12px;
+    margin-top:5px;
+}
+.postGraduate{
+    margin-top: 10px;
+    background-color: #f0d4d5;
+    padding: 12px 17px 20px 30px;
+    border-radius:12px ;
+    display: flex;
+}
+.firstHalf b{
+    font-size: 12.5px;
+}
+.sure{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.sure p{
+    font-size: 17px;
+}
+.sure .yn{
+    margin-left: 7px;
+}
+#checkbox1{
+    margin-left: 35px;
+}
+#checkbox2{
+    margin-left: 10px;
+}
+.divider{
+    width: 2px;
+    height: 70px;
+    background-color: #b2292d;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.secondHalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondHalf b{
+    margin-left: 12px;
+}
+.tick{
+    margin-left: 10px;
+} */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+body{
+  background-color: #fff;
+}
+/* p{
+    margin: 0px;
+} */
+/* p b{
+    font-size: 17px;
+} */
+/* Section B CSS Code */
+.sectionB{
+  margin: 25px 10px;
+}
+.intake{
+  padding: 12px;
+  background-color: #f0d4d5;
+  border-radius: 12px;
+  margin: 0px;
+}
+.intake label{
+  font-size: 20px;
+  margin: 0px;
+}
+input{
+  background-color: #dee5ff;
+  border-radius: 6px;
+  border: solid #dee5ff;
+}
+input:hover{
+  border: 2px solid #000;
+}
+input.semester{
+  width: 10%;
+  border-radius:6px;
+  border: solid 2px #ef3238;
+  margin: 0px;
+}
+label.year{
+  padding-left: 50px;
+  margin: 0px;
+}
+.text{
+  margin: 0px;
+}
+.text #small{
+  font-size: 13px;
+  margin: 10px 0px 5px 8px ;
+}
+.programmes{
+  padding: 17px;
+  background-color: #d2d3d3;
+  border-radius: 13px;
+  margin-top: 7px;
+}
+.programme{
+  display: flex;
+}
+.programme label{
+  width: 200px;
+}
+.programme p{
+  font-size: 17px;
+  margin: 0px;
+}
+.programme input{
+  width: 100%;
+}
+.programme .eg{
+  font-size: 10px;
+  margin: 3px;
+}
+#Specialisation{
+  display: flex;
+  margin-top: 13px;
+}
+.applying{
+  margin-top: 11px;
+}
+.applying b{
+  font-size: 18px;
+  margin: 10px auto auto 12px;
+}
+.applying label{
+  margin-left: 1px;
+}
+.applying p{
+  font-size: 12.7px;
+  margin:10px auto auto 12px;
+}
+.choices{
+  padding: 17px;
+  background-color: #d2d3d3;
+  border-radius: 13px;
+  margin:10px auto;
+}
+.choices p{
+  font-size: 17px;
+  margin: 0px;
+}
+.Complementary{
+  display: flex;
+  margin:14px auto;
+}
+.Complementary input{
+  width: 100%;
+}
+p.extension{
+  margin-left: 9px;
+  font-size: 17px;
+  width: 150px;
+  height: 37px;
+}
+.note{
+  margin:10px auto auto 12px;
+}
+.note p{
+  font-size: 12px;
+  margin-top:5px;
+}
+.postGraduate{
+  margin-top: 10px;
+  background-color: #f0d4d5;
+  padding: 12px 17px 20px 30px;
+  border-radius:12px ;
+  display: flex;
+}
+.firstHalf b{
+  font-size: 12.5px;
+  margin: 0px;
+}
+.sure{
+  display: flex;
+  align-items: center;
+  /* margin-top: 12px; */
+}
+.sure p b{
+  font-size: 17px;
+}
+.sure .yn{
+  margin-left: 7px;
+}
+#checkbox1{
+  margin-left: 35px;
+}
+#checkbox2{
+  margin-left: 10px;
+}
+.divider{
+  width: 2px;
+  height: 70px;
+  background-color: #b2292d;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.secondHalf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondHalf b{
+  margin-left: 12px;
+}
+.tick{
+  margin-left: 10px;
+}
+/* Section C codes */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+/* body{
+    background-color: #fff;
+}
+.SectionC{
+    margin: 90px;
+}
+.text p{
+    font-size: 17px;
+    margin: 8px;
+}
+.text p b{
+    margin-right: 2px;
+}
+.qualification{
+    margin-top: 20px;
+}
+.qualification .text p{
+    font-size: 13.7px;
+}
+.qualification .text p b{
+    font-size: 17px;
+}
+.Pre-requisite .text p{
+    font-size: 13.7px;
+}
+.Pre-requisite .text p b{
+    font-size: 17px;
+}
+.key{
+    display: flex;
+    align-items: center;
+}
+.qualification-body{
+    background-color: #d2d3d3;
+    padding: 10px 15px 12px 15px;
+    border-radius: 12px;
+}
+.key .p1{
+    width: 220px;
+}
+.key .p2{
+    width: 145px;
+}
+.key .p3{
+    width: 135px;
+}
+.key .p4{
+    width: 375px;
+}
+.key .p5{
+    width: 190px;
+}
+.p5 .tiny{
+    font-size: 12px;
+}
+div.example{
+    background-color: #5a5a5d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #fff;
+    padding: 3px;
+}
+.example .eg1{
+    width: 250px;
+    margin-left: 5px;
+}
+.example .eg2{
+    width: 160px;
+    margin-left: 5px;
+}
+.example .eg3{
+    width: 150px;
+    margin-left: 5px;
+}
+.example .eg4{
+    width: 430px;
+    margin-left: 5px;
+}
+.example .eg5{
+    width: 205px;
+    margin-left: 5px;
+}
+.divide{
+    height: 28px;
+    width: 2px;
+    background-color: #d2d3d3;
+}
+.key{
+    margin-bottom:6px;
+    display: flex;
+    align-items: center;
+}
+.key p{
+    margin-left: 3px;
+    color: #000000;
+    font-size: 14px;
+}
+.inputs{
+    margin-top: 15px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+.inputs input{
+    background-color: #dee5ff;
+    border-color: #dee5ff;
+    border-style: solid;
+    margin: 2px;
+    height: 90%;
+}
+.inputs input:hover{
+    border-color : #000000;
+    border-style: solid;
+    background-color: #fff;
+}
+.inputs .in1{
+    width: 220px;
+}
+.inputs .in2{
+    width: 138px;
+}
+.inputs .in3{
+    width: 135px;
+}
+.inputs .in4{
+    width: 380px;
+}
+.inputs .in5{
+    width: 185px;
+}
+.Pre-requisite{
+    margin-top: 20px;
+}
+.Pre-requisite .example{
+    padding:10px 0;
+}
+.confirmation{
+    display: flex;
+    margin-top: 5px;
+}
+.confirmation b{
+    font-size: 17px;
+}
+.confirmation label{
+    margin-left: 5px;
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    margin-left: 20px;
+    background-color: #dee5ff;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:hover{
+    border: #000000 solid 3px;
+}
+.checkbox-round:checked {
+    background-color: gray;
+} */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+
+.SectionC{
+  margin: 25px 5px;
+}
+.text p{
+  font-size: 17px;
+  margin: 0px auto auto 8px;
+}
+.text p b{
+  margin-right: 2px;
+}
+.qualification{
+  margin-top: 20px;
+}
+.qualification .text p{
+  font-size: 13.7px;
+}
+.qualification .text p b{
+  font-size: 17px;
+}
+.Pre-requisite .text p{
+  font-size: 13.7px;
+}
+.Pre-requisite .text p b{
+  font-size: 17px;
+}
+.key{
+  display: flex;
+  align-items: center;
+}
+.qualification-body{
+  background-color: #d2d3d3;
+  padding: 10px 15px 12px 15px;
+  border-radius: 12px;
+}
+.key .p1{
+  width: 220px;
+}
+.key .p2{
+  width: 145px;
+}
+.key .p3{
+  width: 135px;
+}
+.key .p4{
+  width: 375px;
+}
+.key .p5{
+  width: 190px;
+}
+.p5 .tiny{
+  font-size: 12px;
+}
+.p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
+  margin: 0px;
+}
+#down p{
+  margin-top: 10px;
+}
+.question{
+  margin-top: 15px;
+
+}
+div.example{
+  background-color: #5a5a5d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+  padding: 3px;
+}
+.example .eg1{
+  width: 250px;
+  margin-left: 5px;
+}
+.example .eg2{
+  width: 160px;
+  margin-left: 5px;
+}
+.example .eg3{
+  width: 150px;
+  margin-left: 5px;
+}
+.example .eg4{
+  width: 430px;
+  margin-left: 5px;
+}
+.example .eg5{
+  width: 205px;
+  margin-left: 5px;
+}
+.divide{
+  height: 28px;
+  width: 2px;
+  background-color: #d2d3d3;
+}
+.key{
+  margin-bottom:6px;
+  display: flex;
+  align-items: center;
+}
+.key p{
+  margin-left: 3px;
+  color: #000000;
+  font-size: 14px;
+}
+.inputs{
+  margin-top: 15px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 3px;
+  align-items: center;
+  display: flex;
+}
+.inputs input{
+  background-color: #dee5ff;
+  border-color: #dee5ff;
+  border-style: solid;
+  margin: 2px;
+  height: 90%;
+  /* width: 99.5%; */
+}
+.inputs input:hover{
+  border-color : #000000;
+  border-style: solid;
+  background-color: #fff;
+}
+.inputs .in1{
+  width: 220px;
+}
+.inputs .in2{
+  width: 138px;
+}
+.inputs .in3{
+  width: 135px;
+}
+.inputs .in4{
+  width: 380px;
+}
+.inputs .in5{
+  width: 185px;
+}
+.Pre-requisite{
+  margin-top: 20px;
+}
+.Pre-requisite .example{
+  padding:10px 0;
+}
+.confirmation{
+  display: flex;
+  margin-top: 5px;
+}
+.confirmation b{
+  font-size: 17px;
+}
+.confirmation label{
+  margin-left: 5px;
+}
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: 20px;
+  background-color: #dee5ff;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-round:hover{
+  border: #000000 solid 3px;
+}
+.checkbox-round:checked {
+  background-color: gray;
+}
+.twoC{
+  display: flex;
+}
+#left{
+  margin-left: -45px;
+}
+#width{
+  width: 400px;
+}
+#width1{
+  width: 335px;
+}
+#width2{
+  width: 285px;
+}
+.uni{
+  margin: 0px;
+}
+.width label{
+  width: 450px;
+}
+#full{
+  width: 50%;
+}

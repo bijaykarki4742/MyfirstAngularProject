@@ -1,0 +1,372 @@
+<section class="section-a">
+    <div class="title">
+        <h3>
+            <span>Section A:</span>
+            PERSONAL DETAILS
+        </h3>
+    </div>
+    <form class="form1">
+        <div class="column1">
+            <div class="col1">
+                <div class="text">
+                    <p class="bold">Title:</p>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="form-control">
+                    <input
+                        type="radio"
+                        id="title"
+                        name="title"
+                        value="mr"
+                    >
+                    <label for="mr">Mr</label>
+                    <input
+                        type="radio"
+                        id="title"
+                        name="title"
+                        value="mrs"
+                    >
+                    <label for="mrs">Mrs</label>
+                    <input
+                        type="radio"
+                        id="title"
+                        name="title"
+                        value="ms"
+                    >
+                    <label for="ms">Ms</label>
+                    <input
+                        type="radio"
+                        id="title"
+                        name="title"
+                        value="Miss"
+                    >
+                    <label for="title">Miss</label>
+                </div>
+                <div class="form-control">
+                    <p class="bold">Gender:</p>
+                    <input
+                        type="radio"
+                        id="gender"
+                        name="gender"
+                        value="male"
+                    >
+                    <label for="male">Male</label>
+                    <input
+                        type="radio"
+                        id="gender"
+                        name="gender"
+                        value="female"
+                    >
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-control">
+                    <label for="date" class="bold date">Date of Birth:</label>
+                    <input name="date" type="text" placeholder="DD/MM/YYYY">
+                </div>
+            </div>
+        </div>
+        <div class="form-control full-name">
+            <label for="name" class="bold">
+                Full name:
+                <span>(as per NRIC/passport)</span>
+            </label>
+            <input name="name" type="text">
+        </div>
+        <div class="column2">
+            <div class="form-control">
+                <label for="name" class="bold label1">Family name / Surname / Last name:</label>
+                <input name="name" class="input1" type="text">
+            </div>
+            <div class="form-control">
+                <label for="name" class="bold label2">Given name / First name:</label>
+                <input name="name" class="input2" type="text">
+            </div>
+        </div>
+        <div class="column3">
+            <div class="form-control">
+                <label for="name" class="bold number">NRIC / Passport no.:</label>
+                <input name="name" class="input1" type="text">
+            </div>
+            <div class="form-control left">
+                <p class="bold">Marital status:</p>
+                <input
+                    type="radio"
+                    id="single"
+                    name="single"
+                    value="single"
+                >
+                <label for="single">Single</label>
+                <input
+                    type="radio"
+                    id="married"
+                    name="married"
+                    value="married"
+                >
+                <label for="married">Married</label>
+                <input
+                    type="radio"
+                    id="others"
+                    name="others"
+                    value="others"
+                >
+                <label for="married">Others:</label>
+                <input name="name" type="text">
+            </div>
+        </div>
+        <div class="column4">
+            <div class="text">
+                <p class="bold">Either one of my parents/guardian completed a Bachelor's Degree:</p>
+            </div>
+            <div class="form-control">
+                <input
+                    type="radio"
+                    id="true"
+                    name="true"
+                    value="true"
+                >
+                <label for="true">True</label>
+                <input
+                    type="radio"
+                    id="false"
+                    name="false"
+                    value="false"
+                >
+                <label for="false">False</label>
+            </div>
+        </div>
+        <div class="column5">
+            <div class="form-control1">
+                <p class="bold">For Malaysians only</p>
+                <input
+                    type="checkbox"
+                    id="malaysian"
+                    name="malaysian"
+                    value="malaysian"
+                >
+                <label for="true">
+                    Malaysian
+                    <span>(Tick if you prefer to be identified as Malaysian first)</span>
+                </label>
+            </div>
+            <div class="column6">
+                <div class="form-control">
+                    <p>Ethnicity:</p>
+                    <input
+                        type="checkbox"
+                        id="malay"
+                        name="malay"
+                        value="malay"
+                    >
+                    <label for="true">Malay</label>
+                    <input
+                        type="checkbox"
+                        id="chinese"
+                        name="chinese"
+                        value="chinese"
+                    >
+                    <label for="chinese">Chinese</label>
+                    <input
+                        type="checkbox"
+                        id="Indian"
+                        name="Indian"
+                        value="Indian"
+                    >
+                    <label for="indian">Indian</label>
+                    <input
+                        type="checkbox"
+                        id="others"
+                        name="others"
+                        value="others"
+                    >
+                    <label for="others">Others</label>
+                </div>
+                <div class="form-control">
+                    <p>Religion:</p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="line"></div>
+    <div class="int-student">
+        <div class="text">
+            <p class="bold">For international students only</p>
+        </div>
+        <div class="container">
+            <div class="col-1">
+                <p>
+                    Do you hold a valid Malaysian visa/pass?
+                    <input
+                        type="checkbox"
+                        id="yes"
+                        name="yes"
+                        value="yes"
+                    >
+                    <label for="yes">Yes</label>
+                    <input
+                        type="checkbox"
+                        id="no"
+                        name="no"
+                        value="no"
+                    >
+                    <label for="no">No</label>
+                </p>
+                <p>
+                    If yes, indicate type of visa/pass:
+                    <input
+                        type="text"
+                        name="name"
+                        value=""
+                        class="input1"
+                    >
+                    <span>(e.g. social visit/student/dependent/diplomatic/MM2H/employment pass)</span>
+                </p>
+                <p>
+                    Visa/Pass expire date:
+                    <input
+                        class="input2"
+                        type="text"
+                        name="name"
+                        value=""
+                        placeholder="DD/MM/YYYY"
+                    >
+                </p>
+            </div>
+            <div class="col-2">
+                <p>
+                    Country of Citizenship (Nationality):
+                    <input
+                        type="text"
+                        name="name"
+                        value=""
+                        class="input1"
+                    >
+                </p>
+                <p>
+                    Do you require a Single Entry Visa (SEV)?
+                    <input
+                        type="checkbox"
+                        id="yes"
+                        name="yes"
+                        value="yes"
+                    >
+                    <label for="yes">Yes</label>
+                    <input
+                        type="checkbox"
+                        id="no"
+                        name="no"
+                        value="no"
+                    >
+                    <label for="no">No</label>
+                </p>
+                <p>
+                    Nearest embassy for SEV:
+                    <input
+                        type="text"
+                        name="name"
+                        value=""
+                        class="input2"
+                    >
+                </p>
+                <p>
+                    Passport expire date:
+                    <input
+                        type="text"
+                        name="name"
+                        value=""
+                        placeholder="DD/MM/YYYY"
+                        class="input3"
+                    >
+                </p>
+            </div>
+        </div>
+    </div>
+    <form class="form2">
+        <div class="column1">
+            <div class="form-control">
+                <label for="name" class="bold label1">Home Phone:</label>
+                <input
+                    type="text"
+                    id="text"
+                    name="phone"
+                    value=""
+                >
+            </div>
+            <div class="form-control">
+                <label for="mobile" class="bold">Mobile:</label>
+                <input
+                    type="text"
+                    id="text"
+                    name="mobile"
+                    value=""
+                >
+            </div>
+            <div class="form-control">
+                <label for="email" class="bold">Email:</label>
+                <input
+                    type="text"
+                    id=""
+                    name="mail"
+                    value=""
+                >
+            </div>
+        </div>
+        <div class="form-control address">
+        <label for="address" class="bold">
+            Correspondence address:
+            <span>(address for the ubiversity to post/mail all correspondence)</span>
+        </label>
+        <input name="address" type="text">
+        </div>
+        <div class="column2">
+            <div class="form-control">
+                <label for="name" class="bold">Town/City:</label>
+                <input name="name" type="text">
+            </div>
+            <div class="form-control">
+                <label for="name" class="bold">Postcode:</label>
+                <input name="name" type="text">
+            </div>
+        </div>
+        <div class="column3">
+            <div class="form-control">
+                <label for="name" class="bold">State:</label>
+                <input name="name" type="text">
+            </div>
+            <div class="form-control">
+                <label for="name" class="bold">Country:</label>
+                <input name="name" type="text">
+            </div>
+        </div>
+        <div class="form-control address ">
+            <label for="name" class="bold">
+                Permanent home address:
+                <span>
+                    (if different from above and should
+                not be the same as your agent)
+                </span>
+            </label>
+            <input name="name" class="input1" type="text">
+        </div>
+        <div class="column4">
+            <div class="form-control">
+                <label for="name" class="bold">Town/City:</label>
+                <input name="name" type="text">
+            </div>
+            <div class="form-control">
+                <label for="name" class="bold">Postcode:</label>
+                <input name="name" type="text">
+            </div>
+        </div>
+        <div class="column5">
+            <div class="form-control">
+                <label for="name" class="bold">State:</label>
+                <input name="name" type="text">
+            </div>
+            <div class="form-control">
+                <label for="name" class="bold">Country:</label>
+                <input name="name" type="text">
+            </div>
+        </div>
+    </form>
+</section>
