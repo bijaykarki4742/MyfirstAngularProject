@@ -1,18 +1,10 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-body{
-  background-color: #fff;
-}
+
 .SectionC{
-  margin: 90px;
+  margin: 25px 5px;
 }
 .text p{
   font-size: 17px;
-  margin: 8px;
+  margin: 0px auto auto 8px;
 }
 .text p b{
   margin-right: 2px;
@@ -58,6 +50,16 @@ body{
 }
 .p5 .tiny{
   font-size: 12px;
+}
+.p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
+  margin: 0px;
+}
+#down p{
+  margin-top: 10px;
+}
+.question{
+  margin-top: 15px;
+
 }
 div.example{
   background-color: #5a5a5d;

@@ -1,22 +1,15 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-body{
-  background-color: #fff;
-}
 .sectionB{
-  margin: 90px;
+  margin: 25px 10px;
 }
 .intake{
   padding: 12px;
   background-color: #f0d4d5;
   border-radius: 12px;
+  margin: 0px;
 }
 .intake label{
   font-size: 20px;
+  margin: 0px;
 }
 input{
   background-color: #dee5ff;
@@ -29,25 +22,25 @@ input:hover{
 input.semester{
   width: 10%;
   border-radius:6px;
-  /* border-color: #ef3238; */
   border: solid 2px #ef3238;
+  margin: 0px;
 }
 label.year{
   padding-left: 50px;
+  margin: 0px;
 }
 .text{
-  margin-top:10px;
-  margin-left:12px;
+  margin: 0px;
 }
 .text #small{
   font-size: 13px;
-  margin-top: 10px;
+  margin: 10px 0px 5px 8px ;
 }
 .programmes{
   padding: 17px;
   background-color: #d2d3d3;
   border-radius: 13px;
-  margin-top: 18px;
+  margin-top: 7px;
 }
 .programme{
   display: flex;
@@ -57,12 +50,14 @@ label.year{
 }
 .programme p{
   font-size: 17px;
+  margin: 0px;
 }
 .programme input{
   width: 100%;
 }
 .programme .eg{
   font-size: 10px;
+  margin: 3px;
 }
 #Specialisation{
   display: flex;
@@ -90,6 +85,7 @@ label.year{
 }
 .choices p{
   font-size: 17px;
+  margin: 0px;
 }
 .Complementary{
   display: flex;
@@ -120,13 +116,14 @@ p.extension{
 }
 .firstHalf b{
   font-size: 12.5px;
+  margin: 0px;
 }
 .sure{
   display: flex;
   align-items: center;
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
-.sure p{
+.sure p b{
   font-size: 17px;
 }
 .sure .yn{
@@ -156,4 +153,3 @@ p.extension{
 .tick{
   margin-left: 10px;
 }
-
