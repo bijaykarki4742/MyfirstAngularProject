@@ -1,381 +1,124 @@
 <section class="section-a">
-    <div class="title">
-        <h3>
-            <span>Section A:</span>
-            PERSONAL DETAILS
-        </h3>
-    </div>
-    <form class="form1" [formGroup]="userForm">
-        <div class="column1">
-            <div class="col1">
-                <div class="text">
-                    <p class="bold">Title:</p>
-                </div>
-            </div>
-            <div class="col2">
-                <div class="form-control">
-                    <input
-                        type="radio"
-                        id="title"
-                        name="title"
-                        value="mr"
-                    >
-                    <label for="mr">Mr</label>
-                    <input
-                        type="radio"
-                        id="title"
-                        name="title"
-                        value="mrs"
-                    >
-                    <label for="mrs">Mrs</label>
-                    <input
-                        type="radio"
-                        id="title"
-                        name="title"
-                        value="ms"
-                    >
-                    <label for="ms">Ms</label>
-                    <input
-                        type="radio"
-                        id="title"
-                        name="title"
-                        value="Miss"
-                    >
-                    <label for="title">Miss</label>
-                </div>
-                <div class="form-control">
-                    <p class="bold">Gender:</p>
-                    <input
-                        type="radio"
-                        id="gender"
-                        name="gender"
-                        value="male"
-                    >
-                    <label for="male">Male</label>
-                    <input
-                        type="radio"
-                        id="gender"
-                        name="gender"
-                        value="female"
-                    >
-                    <label for="female">Female</label>
-                </div>
-                <div class="form-control">
-                    <label for="date" class="bold date">Date of Birth:</label>
-                    <input name="date" type="text" placeholder="DD/MM/YYYY" formControlName="date">
-                   
-                </div>
-               
-            </div>
-            <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
-                This field is required
-            </div>
-        </div>
-        <div class="form-control full-name">
-            <label for="name" class="bold">
-                Full name:
-                <span>(as per NRIC/passport)</span>
-            </label>
-            <input name="name" type="text" formControlName="fullName">
-           
-        </div>
-        <div class="text-danger" *ngIf=" userForm.controls['fullName'].touched">
-            This field is required
-        </div>
-        <div class="column2">
-            <div class="form-control">
-                <label for="name" class="bold label1">Family name / Surname / Last name:</label>
-                <input name="name" class="input1" type="text" formControlName="surName">
-                <div class="text-danger" *ngIf=" userForm.controls['surName'].touched">
-                    This field is required
-                </div>
-            </div>
-            <div class="form-control">
-                <label for="name" class="bold label2">Given name / First name:</label>
-                <input name="name" class="input2" type="text" formControlName="firstName">
-                <div class="text-danger" *ngIf=" userForm.controls['firstName'].touched">
-                    This field is required
-                </div>
-            </div>
-        </div>
-        <div class="column3">
-            <div class="form-control">
-                <label for="name" class="bold number">NRIC / Passport no.:</label>
-                <input name="name" class="input1" type="text" formControlName="PassportNo">
-                <div class="text-danger" *ngIf=" userForm.controls['PassportNo'].touched">
-                    This field is required
-                </div>
-            </div>
-            <div class="form-control left">
-                <p class="bold">Marital status:</p>
-                <input
-                    type="radio"
-                    id="single"
-                    name="single"
-                    value="single"
-                >
-                <label for="single">Single</label>
-                <input
-                    type="radio"
-                    id="married"
-                    name="married"
-                    value="married"
-                >
-                <label for="married">Married</label>
-                <input
-                    type="radio"
-                    id="others"
-                    name="others"
-                    value="others"
-                >
-                <label for="married">Others:</label>
-                <input name="name" type="text">
-            </div>
-        </div>
-        <div class="column4">
-            <div class="text">
-                <p class="bold">Either one of my parents/guardian completed a Bachelor's Degree:</p>
-            </div>
-            <div class="form-control">
-                <input
-                    type="radio"
-                    id="true"
-                    name="true"
-                    value="true"
-                >
-                <label for="true">True</label>
-                <input
-                    type="radio"
-                    id="false"
-                    name="false"
-                    value="false"
-                >
-                <label for="false">False</label>
-            </div>
-        </div>
-        <div class="column5">
-            <div class="form-control1">
-                <p class="bold">For Malaysians only</p>
-                <input
-                    type="checkbox"
-                    id="malaysian"
-                    name="malaysian"
-                    value="malaysian"
-                >
-                <label for="true">
-                    Malaysian
-                    <span>(Tick if you prefer to be identified as Malaysian first)</span>
-                </label>
-            </div>
-            <div class="column6">
-                <div class="form-control">
-                    <p>Ethnicity:</p>
-                    <input
-                        type="checkbox"
-                        id="malay"
-                        name="malay"
-                        value="malay"
-                    >
-                    <label for="true">Malay</label>
-                    <input
-                        type="checkbox"
-                        id="chinese"
-                        name="chinese"
-                        value="chinese"
-                    >
-                    <label for="chinese">Chinese</label>
-                    <input
-                        type="checkbox"
-                        id="Indian"
-                        name="Indian"
-                        value="Indian"
-                    >
-                    <label for="indian">Indian</label>
-                    <input
-                        type="checkbox"
-                        id="others"
-                        name="others"
-                        value="others"
-                    >
-                    <label for="others">Others</label>
-                </div>
-                <div class="form-control">
-                    <p>Religion:</p>
-                </div>
-            </div>
-        </div>
-    </form>
-    <div class="line"></div>
-    <div class="int-student">
+  <div class="title">
+    <h3>
+      <span>Section A:</span>
+      PERSONAL DETAILS
+    </h3>
+  </div>
+  <form class="form1" [formGroup]="userForm">
+    <div class="column1">
+      <div class="col1">
         <div class="text">
           <p class="bold">Title:</p>
         </div>
       </div>
       <div class="col2">
         <div class="form-control">
-          <input
-            type="radio"
-            id="title"
-            name="title"
-            value="mr"
-          >
+          <input type="radio" id="title" name="title" value="mr" />
           <label for="mr">Mr</label>
-          <input
-            type="radio"
-            id="title"
-            name="title"
-            value="mrs"
-          >
+          <input type="radio" id="title" name="title" value="mrs" />
           <label for="mrs">Mrs</label>
-          <input
-            type="radio"
-            id="title"
-            name="title"
-            value="ms"
-          >
+          <input type="radio" id="title" name="title" value="ms" />
           <label for="ms">Ms</label>
-          <input
-            type="radio"
-            id="title"
-            name="title"
-            value="Miss"
-          >
+          <input type="radio" id="title" name="title" value="Miss" />
           <label for="title">Miss</label>
         </div>
         <div class="form-control">
           <p class="bold">Gender:</p>
-          <input
-            type="radio"
-            id="gender"
-            name="gender"
-            value="male"
-          >
+          <input type="radio" id="gender" name="gender" value="male" />
           <label for="male">Male</label>
-          <input
-            type="radio"
-            id="gender"
-            name="gender"
-            value="female"
-          >
+          <input type="radio" id="gender" name="gender" value="female" />
           <label for="female">Female</label>
         </div>
         <div class="form-control">
-          <label style="width: 200px;" for="date" class="bold date">Date of Birth:</label>
-          <input name="date" type="text" placeholder="DD/MM/YYYY">
+          <label for="date" class="bold date">Date of Birth:</label>
+          <input
+            name="date"
+            type="text"
+            placeholder="DD/MM/YYYY"
+            formControlName="date"
+          />
         </div>
       </div>
+      <div class="text-danger" *ngIf="userForm.controls['date'].touched">
+        This field is required
+      </div>
     </div>
-<<<<<<< HEAD
-    <form class="form2" [formGroup]="userForm">
-        <div class="column1">
-            <div class="form-control">
-                <label for="name" class="bold label1">Home Phone:</label>
-                <input
-                    type="text"
-                    id="text"
-                    name="phone"
-                    value=""
-                    formControlName="phone"
-                >
-                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
-                    This field is required
-                </div>
-            </div>
-            <div class="form-control">
-                <label for="mobile" class="bold">Mobile:</label>
-                <input
-                    type="text"
-                    id="text"
-                    name="mobile"
-                    value="" formControlName="mobile"
-                >
-                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
-                    This field is required
-                </div>
-            </div>
-            <div class="form-control">
-                <label for="email" class="bold">Email:</label>
-                <input
-                    type="text"
-                    id=""
-                    name="mail"
-                    value="" formControlName="Email"
-                >
-                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
-                    This field is required
-                </div>
-            </div>
-        </div>
-        <div class="form-control address">
-        <label for="address" class="bold">
-            Correspondence address:
-            <span>(address for the ubiversity to post/mail all correspondence)</span>
-=======
     <div class="form-control full-name">
-      <label style="width:200px;" for="name" class="bold">Full name:
+      <label for="name" class="bold">
+        Full name:
         <span>(as per NRIC/passport)</span>
       </label>
-      <input name="name" type="text">
+      <input name="name" type="text" formControlName="fullName" />
     </div>
-    <div class="column2" style="display: flex; align-items: center; justify-content: center;">
+    <div class="text-danger" *ngIf="userForm.controls['fullName'].touched">
+      This field is required
+    </div>
+    <div class="column2">
       <div class="form-control">
-        <label style="width: 650px;" for="name" class="bold label1">Family name / Surname / Last name:</label>
-        <input name="name" class="input1" type="text">
+        <label for="name" class="bold label1"
+          >Family name / Surname / Last name:</label
+        >
+        <input
+          name="name"
+          class="input1"
+          type="text"
+          formControlName="surName"
+        />
+        <div class="text-danger" *ngIf="userForm.controls['surName'].touched">
+          This field is required
+        </div>
       </div>
       <div class="form-control">
-        <label style="width: 380px; margin-left: 10px;" for="name" class="bold label2">Given name / First name:</label>
-        <input name="name" class="input2" type="text">
+        <label for="name" class="bold label2">Given name / First name:</label>
+        <input
+          name="name"
+          class="input2"
+          type="text"
+          formControlName="firstName"
+        />
+        <div class="text-danger" *ngIf="userForm.controls['firstName'].touched">
+          This field is required
+        </div>
       </div>
     </div>
     <div class="column3">
       <div class="form-control">
         <label for="name" class="bold number">NRIC / Passport no.:</label>
-        <input name="name" class="input1" type="text">
+        <input
+          name="name"
+          class="input1"
+          type="text"
+          formControlName="PassportNo"
+        />
+        <div
+          class="text-danger"
+          *ngIf="userForm.controls['PassportNo'].touched"
+        >
+          This field is required
+        </div>
       </div>
       <div class="form-control left">
         <p class="bold">Marital status:</p>
-        <input
-          type="radio"
-          id="single"
-          name="single"
-          value="single"
-        >
+        <input type="radio" id="single" name="single" value="single" />
         <label for="single">Single</label>
-        <input
-          type="radio"
-          id="married"
-          name="married"
-          value="married"
-        >
+        <input type="radio" id="married" name="married" value="married" />
         <label for="married">Married</label>
-        <input
-          type="radio"
-          id="others"
-          name="others"
-          value="others"
-        >
+        <input type="radio" id="others" name="others" value="others" />
         <label for="married">Others:</label>
-        <input name="name" type="text">
+        <input name="name" type="text" />
       </div>
     </div>
     <div class="column4">
       <div class="text">
-        <p class="bold">Either one of my parents/guardian completed a Bachelor's Degree:</p>
+        <p class="bold">
+          Either one of my parents/guardian completed a Bachelor's Degree:
+        </p>
       </div>
       <div class="form-control">
-        <input
-          type="radio"
-          id="true"
-          name="true"
-          value="true"
-        >
+        <input type="radio" id="true" name="true" value="true" />
         <label for="true">True</label>
-        <input
-          type="radio"
-          id="false"
-          name="false"
-          value="false"
-        >
+        <input type="radio" id="false" name="false" value="false" />
         <label for="false">False</label>
       </div>
     </div>
@@ -387,43 +130,22 @@
           id="malaysian"
           name="malaysian"
           value="malaysian"
-        >
+        />
         <label for="true">
           Malaysian
           <span>(Tick if you prefer to be identified as Malaysian first)</span>
->>>>>>> 77b6344b38cfb2fd8d8a8f01a07e53cf6e4ea3aa
         </label>
       </div>
       <div class="column6">
         <div class="form-control">
           <p>Ethnicity:</p>
-          <input
-            type="checkbox"
-            id="malay"
-            name="malay"
-            value="malay"
-          >
+          <input type="checkbox" id="malay" name="malay" value="malay" />
           <label for="true">Malay</label>
-          <input
-            type="checkbox"
-            id="chinese"
-            name="chinese"
-            value="chinese"
-          >
+          <input type="checkbox" id="chinese" name="chinese" value="chinese" />
           <label for="chinese">Chinese</label>
-          <input
-            type="checkbox"
-            id="Indian"
-            name="Indian"
-            value="Indian"
-          >
+          <input type="checkbox" id="Indian" name="Indian" value="Indian" />
           <label for="indian">Indian</label>
-          <input
-            type="checkbox"
-            id="others"
-            name="others"
-            value="others"
-          >
+          <input type="checkbox" id="others" name="others" value="others" />
           <label for="others">Others</label>
         </div>
         <div class="form-control">
@@ -432,6 +154,7 @@
       </div>
     </div>
   </form>
+
   <div class="line"></div>
   <div class="int-student">
     <div class="text">
@@ -441,30 +164,18 @@
       <div class="col-1">
         <p>
           Do you hold a valid Malaysian visa/pass?
-          <input
-            type="checkbox"
-            id="yes"
-            name="yes"
-            value="yes"
-          >
+          <input type="checkbox" id="yes" name="yes" value="yes" />
           <label for="yes">Yes</label>
-          <input
-            type="checkbox"
-            id="no"
-            name="no"
-            value="no"
-          >
+          <input type="checkbox" id="no" name="no" value="no" />
           <label for="no">No</label>
         </p>
         <p>
           If yes, indicate type of visa/pass:
-          <input
-            type="text"
-            name="name"
-            value=""
-            class="input1"
+          <input type="text" name="name" value="" class="input1" />
+          <span
+            >(e.g. social visit/student/dependent/diplomatic/MM2H/employment
+            pass)</span
           >
-          <span>(e.g. social visit/student/dependent/diplomatic/MM2H/employment pass)</span>
         </p>
         <p>
           Visa/Pass expire date:
@@ -474,44 +185,24 @@
             name="name"
             value=""
             placeholder="DD/MM/YYYY"
-          >
+          />
         </p>
       </div>
       <div class="col-2">
         <p>
           Country of Citizenship (Nationality):
-          <input
-            type="text"
-            name="name"
-            value=""
-            class="input1"
-          >
+          <input type="text" name="name" value="" class="input1" />
         </p>
         <p>
           Do you require a Single Entry Visa (SEV)?
-          <input
-            type="checkbox"
-            id="yes"
-            name="yes"
-            value="yes"
-          >
+          <input type="checkbox" id="yes" name="yes" value="yes" />
           <label for="yes">Yes</label>
-          <input
-            type="checkbox"
-            id="no"
-            name="no"
-            value="no"
-          >
+          <input type="checkbox" id="no" name="no" value="no" />
           <label for="no">No</label>
         </p>
         <p>
           Nearest embassy for SEV:
-          <input
-            type="text"
-            name="name"
-            value=""
-            class="input2"
-          >
+          <input type="text" name="name" value="" class="input2" />
         </p>
         <p>
           Passport expire date:
@@ -521,12 +212,12 @@
             value=""
             placeholder="DD/MM/YYYY"
             class="input3"
-          >
+          />
         </p>
       </div>
     </div>
   </div>
-  <form class="form2">
+  <form class="form2" [formGroup]="userForm">
     <div class="column1">
       <div class="form-control">
         <label id="width" for="name" class="bold label1">
@@ -535,8 +226,11 @@
           type="text"
           id="text"
           name="phone"
-          value=""
+          value="" formControlName="Phone"
         >
+        <div class="text-danger" *ngIf="userForm.controls['Phone'].touched">
+          This field is required
+        </div>
       </div>
       <div id="full" class="form-control">
         <label  for="mobile" class="bold">Mobile:</label>
@@ -544,8 +238,11 @@
                type="text"
                id="text"
                name="mobile"
-               value=""
+               value=""  formControlName="Mobile"
         >
+        <div class="text-danger" *ngIf="userForm.controls['Mobile'].touched">
+          This field is required
+        </div>
       </div>
     </div>
     <div class="form-control">
@@ -556,8 +253,11 @@
         type="text"
         id=""
         name="mail"
-        value=""
+        value="" formControlName="Email"
       >
+      <div class="text-danger" *ngIf="userForm.controls['Email'].touched">
+        This field is required
+      </div>
     </div>
     <div class="form-control address">
       <label id="width2" for="address" class="bold">
