@@ -5,7 +5,7 @@
             PERSONAL DETAILS
         </h3>
     </div>
-    <form class="form1">
+    <form class="form1" [formGroup]="userForm">
         <div class="column1">
             <div class="col1">
                 <div class="text">
@@ -62,8 +62,13 @@
                 </div>
                 <div class="form-control">
                     <label for="date" class="bold date">Date of Birth:</label>
-                    <input name="date" type="text" placeholder="DD/MM/YYYY">
+                    <input name="date" type="text" placeholder="DD/MM/YYYY" formControlName="date">
+                   
                 </div>
+               
+            </div>
+            <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
+                This field is required
             </div>
         </div>
         <div class="form-control full-name">
@@ -71,22 +76,35 @@
                 Full name:
                 <span>(as per NRIC/passport)</span>
             </label>
-            <input name="name" type="text">
+            <input name="name" type="text" formControlName="fullName">
+           
+        </div>
+        <div class="text-danger" *ngIf=" userForm.controls['fullName'].touched">
+            This field is required
         </div>
         <div class="column2">
             <div class="form-control">
                 <label for="name" class="bold label1">Family name / Surname / Last name:</label>
-                <input name="name" class="input1" type="text">
+                <input name="name" class="input1" type="text" formControlName="surName">
+                <div class="text-danger" *ngIf=" userForm.controls['surName'].touched">
+                    This field is required
+                </div>
             </div>
             <div class="form-control">
                 <label for="name" class="bold label2">Given name / First name:</label>
-                <input name="name" class="input2" type="text">
+                <input name="name" class="input2" type="text" formControlName="firstName">
+                <div class="text-danger" *ngIf=" userForm.controls['firstName'].touched">
+                    This field is required
+                </div>
             </div>
         </div>
         <div class="column3">
             <div class="form-control">
                 <label for="name" class="bold number">NRIC / Passport no.:</label>
-                <input name="name" class="input1" type="text">
+                <input name="name" class="input1" type="text" formControlName="PassportNo">
+                <div class="text-danger" *ngIf=" userForm.controls['PassportNo'].touched">
+                    This field is required
+                </div>
             </div>
             <div class="form-control left">
                 <p class="bold">Marital status:</p>
@@ -281,7 +299,7 @@
             </div>
         </div>
     </div>
-    <form class="form2">
+    <form class="form2" [formGroup]="userForm">
         <div class="column1">
             <div class="form-control">
                 <label for="name" class="bold label1">Home Phone:</label>
@@ -290,7 +308,11 @@
                     id="text"
                     name="phone"
                     value=""
+                    formControlName="phone"
                 >
+                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
+                    This field is required
+                </div>
             </div>
             <div class="form-control">
                 <label for="mobile" class="bold">Mobile:</label>
@@ -298,8 +320,11 @@
                     type="text"
                     id="text"
                     name="mobile"
-                    value=""
+                    value="" formControlName="mobile"
                 >
+                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
+                    This field is required
+                </div>
             </div>
             <div class="form-control">
                 <label for="email" class="bold">Email:</label>
@@ -307,8 +332,11 @@
                     type="text"
                     id=""
                     name="mail"
-                    value=""
+                    value="" formControlName="Email"
                 >
+                <div class="text-danger" *ngIf=" userForm.controls['date'].touched">
+                    This field is required
+                </div>
             </div>
         </div>
         <div class="form-control address">

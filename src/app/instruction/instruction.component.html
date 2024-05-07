@@ -36,10 +36,13 @@
                 <p class="title">
                     For office use only:
                 </p>
-                <form>
+                <form [formGroup]=" userForm">
                     <div class="form-control">
                         <label for="student-id">Student ID:</label>
-                        <input name="Student-id" type="text">
+                        <input name="Student-id" type="text" formControlName="studentID">
+                        <div class="text-danger" *ngIf=" userForm.controls['studentID'].touched">
+                            This field is required
+                        </div>
                     </div>
                     <div class="form-control">
                         <label for="discount">Scholarships/Bursary Discount Code:</label>
@@ -47,7 +50,7 @@
                             class="discount"
                             name="discount"
                             placeholder=" "
-                            type="text"
+                            type="text" formControlName="code"
                         >
                     </div>
                 </form>

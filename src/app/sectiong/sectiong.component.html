@@ -11,25 +11,37 @@
             <br>
             <span>(Do not put friend as an emergrncy contact)</span>
         </p>
-        <form>
+        <form [formGroup]="userForm">
             <div class="col1">
                 <div class="form-control">
                     <label for="student-id">Name:</label>
-                    <input name="Student-id" type="text">
+                    <input name="Student-id" type="text" formControlName="name">
+                    <div class="text-danger" *ngIf=" userForm.controls['name'].touched">
+                        This field is required
+                    </div>
                 </div>
                 <div class="form-control">
                     <label for="discount">Relationship:</label>
-                    <input name="discount" type="text">
+                    <input name="discount" type="text" formControlName="Relationship">
+                    <div class="text-danger" *ngIf=" userForm.controls['Relationship'].touched">
+                        This field is required
+                    </div>
                 </div>
             </div>
             <div class="col2">
                 <div class="form-control">
                     <label for="student-id">Mobile:</label>
-                    <input name="Student-id" type="text">
+                    <input name="Student-id" type="text" formControlName="mobile">
+                    <div class="text-danger" *ngIf=" userForm.controls['mobile'].touched">
+                        This field is required
+                    </div>
                 </div>
                 <div class="form-control">
                     <label for="discount">Email:</label>
-                    <input name="discount" type="text">
+                    <input name="discount" type="text" formControlName="Email">
+                    <div class="text-danger" *ngIf=" userForm.controls['Email'].touched">
+                        This field is required
+                    </div>
                 </div>
             </div>
         </form>

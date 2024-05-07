@@ -1,69 +1,91 @@
 <section class="section-h">
-    <div class="title">
-        <h3>
-            Section H:
-                PARENT/GUARDIAN INFORMATION
-        </h3>
-    </div>
-    <div class="container">
-        <div class="left">
-            <div class="form-control1">
-                <label for="name">Name:
-                    <span> (as per NRIC/passport)</span>
-                </label>
-                <input name="name" type="text">
-            </div>
-            <div class="col1">
-                <div class="form-control">
-                    <label for="name">Occupation:</label>
-                    <input name="name" type="text">
-                </div>
-                <div class="form-control">
-                    <label for="no" class="label1">NRIC/Passport No.:</label>
-                    <input name="no" type="text">
-                </div>
-            </div>
-            <div class="col2">
-                <div class="form-control">
-                    <label for="number">Mobile:</label>
-                    <input name="number" type="text">
-                </div>
-                <div class="form-control">
-                    <label for="status">Relationship:</label>
-                    <input name="status" type="text">
-                </div>
-            </div>
-            <div class="form-control2">
-                <label for="email">Email:</label>
-                <input name="email" type="email">
-            </div>
+  <div class="title">
+    <h3>Section H: PARENT/GUARDIAN INFORMATION</h3>
+  </div>
+  <div class="container">
+    
+      <div class="left">
+        <form [formGroup]="userForm">
+        <div class="form-control1">
+          <label for="name"
+            >Name:
+            <span> (as per NRIC/passport)</span>
+          </label>
+          <input name="name" type="text" formControlName="Name" />
+          <div class="text-danger" *ngIf=" userForm.controls['Name'].touched">
+            This field is required
         </div>
-        <div class="right">
-            <p>(if different from permanent home address stated in Page1)</p>
-            <div class="form-control address">
-                <label for="address">Addres:</label>
-                <input name="address" type="text">
-            </div>
-            <div class="col1">
-                <div class="form-control">
-                    <label for="city">City:</label>
-                    <input name="city" type="text">
-                </div>
-                <div class="form-control">
-                    <label for="no">Postcode:</label>
-                    <input name="no" type="text">
-                </div>
-            </div>
-            <div class="col2">
-                <div class="form-control">
-                    <label for="state">State:</label>
-                    <input name="state" type="text">
-                </div>
-                <div class="form-control">
-                    <label for="country">Country:</label>
-                    <input name="country" type="text">
-                </div>
-            </div>
+          
         </div>
-    </div>
+        <div class="col1">
+          <div class="form-control">
+            <label for="name">Occupation:</label>
+            <input name="name" type="text" formControlName="Occupation" />
+            <div class="text-danger" *ngIf=" userForm.controls['Occupation'].touched">
+                This field is required
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="no" class="label1">NRIC/Passport No.:</label>
+            <input name="no" type="text" formControlName="PassportNo" />
+            <div class="text-danger" *ngIf=" userForm.controls['PassportNo'].touched">
+                This field is required
+            </div>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="form-control">
+            <label for="number">Mobile:</label>
+            <input name="number" type="text" formControlName="Mobile" />
+            <div class="text-danger" *ngIf=" userForm.controls['Mobile'].touched">
+                This field is required
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="status">Relationship:</label>
+            <input name="status" type="text" formControlName="relationship" />
+            <div class="text-danger" *ngIf=" userForm.controls['relationship'].touched">
+                This field is required
+            </div>
+          </div>
+        </div>
+        <div class="form-control2">
+          <label for="email">Email:</label>
+          <input name="email" type="email" formControlName="email" />
+          <div class="text-danger" *ngIf=" userForm.controls['email'].touched">
+            This field is required
+        </div>
+        </div>
+        </form>
+      </div>
+      
+      <div class="right">
+        <p>(if different from permanent home address stated in Page1)</p>
+        <div class="form-control address">
+          <label for="address">Addres:</label>
+          <input name="address" type="text" />
+        </div>
+        <div class="col1">
+          <div class="form-control">
+            <label for="city">City:</label>
+            <input name="city" type="text" />
+          </div>
+          <div class="form-control">
+            <label for="no">Postcode:</label>
+            <input name="no" type="text" />
+          </div>
+        </div>
+        <div class="col2">
+          <div class="form-control">
+            <label for="state">State:</label>
+            <input name="state" type="text" />
+          </div>
+          <div class="form-control">
+            <label for="country">Country:</label>
+            <input name="country" type="text" />
+          </div>
+        </div>
+      </div>
+    
+  </div>
 </section>
