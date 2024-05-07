@@ -1,0 +1,155 @@
+.sectionB{
+  margin: 25px 10px;
+}
+.intake{
+  padding: 12px;
+  background-color: #f0d4d5;
+  border-radius: 12px;
+  margin: 0px;
+}
+.intake label{
+  font-size: 20px;
+  margin: 0px;
+}
+input{
+  background-color: #dee5ff;
+  border-radius: 6px;
+  border: solid #dee5ff;
+}
+input:hover{
+  border: 2px solid #000;
+}
+input.semester{
+  width: 10%;
+  border-radius:6px;
+  border: solid 2px #ef3238;
+  margin: 0px;
+}
+label.year{
+  padding-left: 50px;
+  margin: 0px;
+}
+.text{
+  margin: 0px;
+}
+.text #small{
+  font-size: 13px;
+  margin: 10px 0px 5px 8px ;
+}
+.programmes{
+  padding: 17px;
+  background-color: #d2d3d3;
+  border-radius: 13px;
+  margin-top: 7px;
+}
+.programme{
+  display: flex;
+}
+.programme label{
+  width: 200px;
+}
+.programme p{
+  font-size: 17px;
+  margin: 0px;
+}
+.programme input{
+  width: 100%;
+}
+.programme .eg{
+  font-size: 10px;
+  margin: 3px;
+}
+#Specialisation{
+  display: flex;
+  margin-top: 13px;
+}
+.applying{
+  margin-top: 11px;
+}
+.applying b{
+  font-size: 18px;
+  margin: 10px auto auto 12px;
+}
+.applying label{
+  margin-left: 1px;
+}
+.applying p{
+  font-size: 12.7px;
+  margin:10px auto auto 12px;
+}
+.choices{
+  padding: 17px;
+  background-color: #d2d3d3;
+  border-radius: 13px;
+  margin:10px auto;
+}
+.choices p{
+  font-size: 17px;
+  margin: 0px;
+}
+.Complementary{
+  display: flex;
+  margin:14px auto;
+}
+.Complementary input{
+  width: 100%;
+}
+p.extension{
+  margin-left: 9px;
+  font-size: 17px;
+  width: 150px;
+  height: 37px;
+}
+.note{
+  margin:10px auto auto 12px;
+}
+.note p{
+  font-size: 12px;
+  margin-top:5px;
+}
+.postGraduate{
+  margin-top: 10px;
+  background-color: #f0d4d5;
+  padding: 12px 17px 20px 30px;
+  border-radius:12px ;
+  display: flex;
+}
+.firstHalf b{
+  font-size: 12.5px;
+  margin: 0px;
+}
+.sure{
+  display: flex;
+  align-items: center;
+  /* margin-top: 12px; */
+}
+.sure p b{
+  font-size: 17px;
+}
+.sure .yn{
+  margin-left: 7px;
+}
+#checkbox1{
+  margin-left: 35px;
+}
+#checkbox2{
+  margin-left: 10px;
+}
+.divider{
+  width: 2px;
+  height: 70px;
+  background-color: #b2292d;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.secondHalf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondHalf b{
+  margin-left: 12px;
+}
+.tick{
+  margin-left: 10px;
+}
