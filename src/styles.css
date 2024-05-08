@@ -669,6 +669,9 @@ p.extension{
   font-size: 17px;
   margin: 0px auto auto 8px;
 }
+.section-d .text p {
+  margin: 15px auto auto 3px;
+}
 .text p b{
   margin-right: 2px;
 }
