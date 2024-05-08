@@ -24,6 +24,23 @@ export class SectionaComponent {
       PassportNo: new FormControl("",[Validators.required]),
       Mobile: new FormControl("",[Validators.required]),
       Email: new FormControl("",[Validators.required]),
+      visa: new FormControl(""),
+      citizenship: new FormControl(""),
+      embassy: new FormControl(""),
+      visadate: new FormControl(""),
+      passportdate: new FormControl(""),
+      address: new FormControl(""),
+      town: new FormControl(""),
+      postcode: new FormControl(""),
+      state: new FormControl(""),
+      country: new FormControl(""),
+      homeaddress: new FormControl(""),
+      town1: new FormControl(""),
+      postcode1: new FormControl(""),
+      state1: new FormControl(""),
+      country1: new FormControl(""),
+
+
    })
    this.initForm();
   }

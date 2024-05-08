@@ -161,6 +161,8 @@
       <p class="bold">For international students only</p>
     </div>
     <div class="container">
+
+      <form [formGroup]="userForm">
       <div class="col-1">
         <p>
           Do you hold a valid Malaysian visa/pass?
@@ -171,7 +173,7 @@
         </p>
         <p>
           If yes, indicate type of visa/pass:
-          <input type="text" name="name" value="" class="input1" />
+          <input type="text" name="name" value="" class="input1" formControlName="visa" />
           <span
             >(e.g. social visit/student/dependent/diplomatic/MM2H/employment
             pass)</span
@@ -184,14 +186,14 @@
             type="text"
             name="name"
             value=""
-            placeholder="DD/MM/YYYY"
+            placeholder="DD/MM/YYYY" formControlName="visadate"
           />
         </p>
       </div>
       <div class="col-2">
         <p>
           Country of Citizenship (Nationality):
-          <input type="text" name="name" value="" class="input1" />
+          <input type="text" name="name" value="" class="input1" formControlName="citizenship" />
         </p>
         <p>
           Do you require a Single Entry Visa (SEV)?
@@ -202,7 +204,7 @@
         </p>
         <p>
           Nearest embassy for SEV:
-          <input type="text" name="name" value="" class="input2" />
+          <input type="text" name="name" value="" class="input2" formControlName="embassy" />
         </p>
         <p>
           Passport expire date:
@@ -211,10 +213,11 @@
             name="name"
             value=""
             placeholder="DD/MM/YYYY"
-            class="input3"
+            class="input3" formControlName="passportdate"
           />
         </p>
       </div>
+      </form>
     </div>
   </div>
   <form class="form2" [formGroup]="userForm">
@@ -266,31 +269,31 @@
           <span>(address for the ubiversity to <br> post/mail all correspondence)</span>
         </p>
       </label>
-      <input name="address" type="text">
+      <input name="address" type="text" formControlName="address">
     </div>
     <div class="column2">
       <div style="width: 65%;" class="form-control">
         <label id="width1" for="name" class="bold">
           <p>Town/City:</p>
         </label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="town">
       </div>
       <div id="width" class="form-control">
         <label for="name" class="bold">
           <p>Postcode:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="postcode">
       </div>
     </div>
     <div class="column3">
       <div class="form-control">
         <label style="width: 400px;" for="name" class="bold">
           <p>State:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="state">
       </div>
       <div class="form-control">
         <label for="name" class="bold">
           <p>Country:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="country">
       </div>
     </div>
     <div class="form-control address">
@@ -300,31 +303,31 @@
           <span>(if different from above and should<br>not be the same as your agent)</span>
         </p>
       </label>
-      <input name="address" type="text">
+      <input name="address" type="text" formControlName="homeaddress">
     </div>
     <div class="column4">
       <div style="width: 65%;" class="form-control">
         <label id="width1" for="name" class="bold">
           <p>Town/City:</p>
         </label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="town1">
       </div>
       <div id="width" class="form-control">
         <label for="name" class="bold">
           <p>Postcode:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="postcode1">
       </div>
     </div>
     <div class="column3">
       <div class="form-control">
         <label id="width" for="name" class="bold">
           <p>State:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="state">
       </div>
       <div class="form-control">
         <label for="name" class="bold">
           <p>Country:</p></label>
-        <input name="name" type="text">
+        <input name="name" type="text" formControlName="country1">
       </div>
     </div>
   </form>
