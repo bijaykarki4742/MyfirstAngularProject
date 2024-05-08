@@ -39,16 +39,36 @@ export class SectionaComponent {
       postcode1: new FormControl(""),
       state1: new FormControl(""),
       country1: new FormControl(""),
-
-
    })
    this.initForm();
   }
-  
+
   initForm(){
 
    this.userForm.patchValue({
-    fullName:this.service.Value.fullName
+     date:this.service.Value.date,
+    fullName:this.service.Value.fullName,
+     surName:this.service.Value.surName,
+     firstName:this.service.Value.firstName,
+     Phone:this.service.Value.Phone,
+     PassportNo:this.service.Value.PassportNo,
+     Mobile:this.service.Value.Mobile,
+     Email:this.service.Value.Email,
+     visa:this.service.Value.visa,
+     citizenship:this.service.Value.citizenship,
+     embassy:this.service.Value.embassy,
+     visadate:this.service.Value.visadate,
+     passportdate:this.service.Value.passportdate,
+     address:this.service.Value.address,
+     town:this.service.Value.town,
+     postcode:this.service.Value.postcode,
+     state:this.service.Value.state,
+     country:this.service.Value.country,
+     homeaddress:this.service.Value.homeaddress,
+     town1:this.service.Value.town1,
+     postcode1:this.service.Value.postcode1,
+     state1:this.service.Value.state1,
+     country1:this.service.Value.country1,
    })
   }
 }

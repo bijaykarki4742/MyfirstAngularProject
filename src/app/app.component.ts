@@ -14,7 +14,10 @@ import {SectioncComponent} from "./sectionc/sectionc.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, InstructionComponent, SectionaComponent, SectionbComponent, SectioncComponent, SectiondComponent, SectioneComponent, SectionfComponent, SectiongComponent, SectionhComponent, SectioniComponent, SectionbComponent],
+  imports: [RouterOutlet, InstructionComponent, SectionaComponent,
+    SectionbComponent, SectioncComponent, SectiondComponent,
+    SectioneComponent, SectionfComponent, SectiongComponent,
+    SectionhComponent, SectioniComponent, SectionbComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

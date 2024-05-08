@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import {ApiServiceService} from "../api-service.service";
 
 @Component({
   selector: 'app-sectionh',
@@ -12,6 +13,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 export class SectionhComponent {
   userForm: FormGroup;
 
+  private service:ApiServiceService = inject(ApiServiceService);
   constructor() {
     this.userForm = new FormGroup({
        Name: new FormControl("",[Validators.required]),
@@ -20,6 +22,18 @@ export class SectionhComponent {
        email: new FormControl("",[Validators.required]),
        Occupation: new FormControl("",[Validators.required]),
        PassportNo: new FormControl("",[Validators.required])
+    })
+    this.initForm()
+  }
+  initForm(){
+
+    this.userForm.patchValue({
+      Name:this.service.Value.Name,
+      relationship:this.service.Value.relationship,
+      Mobile:this.service.Value.Mobile,
+      email:this.service.Value.email,
+      Occupation:this.service.Value.Occupation,
+      PassportNo:this.service.Value.PassportNo,
     })
   }
 }
