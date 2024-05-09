@@ -22,20 +22,20 @@
           <label><p>Programme: <br></p>
             <p class="eg">(e.g. Bachelor of Business)</p>
           </label>
-          <input type="text">
+          <input type="text" formControlName="programme">
         </div>
         <div  id="Specialisation" class="programme">
           <label><p>Specialisation: <br></p>
             <p  class="eg">(e.g. Business Admistration)</p>
           </label>
-          <input type="text">
+          <input type="text" formControlName="specialisation">
         </div>
       </div>
       <div class="applying">
         <b>Are you applying for Credit Transfer?</b>
-        <input type="checkbox">
+        <input type="checkbox" formControlName="applying">
         <label>Yes</label>
-        <input type="checkbox">
+        <input type="checkbox" formControlName="applying">
         <label> No</label>
         <p>(If yes, you must submit the completed application for Module Exemption/Credit Transfer form including relevant documents and state your choice of complementary study in the below section)</p>
       </div>
@@ -46,31 +46,31 @@
             <label>
               <p class="extension">First Extension:</p>
             </label>
-            <input type="text">
+            <input type="text" formControlName="firstExtension">
           </div>
           <div class="Complementary">
             <label>
               <p class="extension">Second Extension:</p>
             </label>
-            <input type="text">
+            <input type="text" formControlName="secondExtension">
           </div>
           <div class="Complementary">
             <label>
               <p class="extension">First Minor:</p>
             </label>
-            <input type="text">
+            <input type="text" formControlName="firstMinor">
           </div>
           <div class="Complementary">
             <label>
               <p class="extension">Second Minor:</p>
             </label>
-            <input type="text">
+            <input type="text" formControlName="secondMinor">
           </div>
           <div class="Complementary">
             <label>
-              <p class="extension">First major:</p>
+              <p class="extension">Second Major:</p>
             </label>
-            <input type="text">
+            <input type="text" formControlName="secondMajor">
           </div>
         </div>
       </div>
@@ -83,9 +83,9 @@
           <b>For Post-Graduate applicants ONLY:</b>
           <div class="sure">
             <p><b>Are you applying under Recognition of Prior Learning?</b></p>
-            <input id="checkbox1" type="checkbox">
+            <input id="checkbox1" type="checkbox" formControlName="recognitionOfPriorLearning">
             <label class="yn">Yes</label>
-            <input  id="checkbox2" type="checkbox">
+            <input  id="checkbox2" type="checkbox" formControlName="recognitionOfPriorLearning">
             <label class="yn">No</label>
           </div>
         </div>
@@ -94,11 +94,11 @@
           <b>Kindly select the mode of candidature. </b>
           <div class="tick">
             <div class="tick1">
-              <input type="checkbox">
+              <input type="checkbox" formControlName=" modeOfCandidature">
               <label>Full time</label>
             </div>
             <div class="tick2">
-              <input type="checkbox">
+              <input type="checkbox" formControlName=" modeOfCandidature">
               <label>Part time</label>
             </div>
           </div>

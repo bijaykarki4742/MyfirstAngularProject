@@ -14,7 +14,7 @@ export class InstructionComponent {
 
    constructor() {
      this.userForm = new FormGroup({
-        studentID: new FormControl("",[Validators.required,Validators.minLength(6)]),
+        studentID: new FormControl(""),
          code: new FormControl("")
      })
    }

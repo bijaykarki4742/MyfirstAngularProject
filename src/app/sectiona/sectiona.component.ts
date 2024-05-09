@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ApiServiceService } from '../api-service.service';
+import { title } from 'process';
 
 @Component({
   selector: 'app-sectiona',
@@ -16,29 +17,35 @@ export class SectionaComponent {
 
   constructor() {
     this.userForm = new FormGroup({
-      date: new FormControl("",[Validators.required]),
-      fullName: new FormControl("",[Validators.required]),
-      surName: new FormControl("",[Validators.required]),
-      firstName: new FormControl("",[Validators.required]),
-      Phone: new FormControl("",[Validators.required]),
-      PassportNo: new FormControl("",[Validators.required]),
-      Mobile: new FormControl("",[Validators.required]),
-      Email: new FormControl("",[Validators.required]),
-      visa: new FormControl(""),
-      citizenship: new FormControl(""),
-      embassy: new FormControl(""),
-      visadate: new FormControl(""),
-      passportdate: new FormControl(""),
-      address: new FormControl(""),
+      title: new FormControl(""),
+      gender: new FormControl(""),
+      dateofBirth: new FormControl(""),
+      fullName: new FormControl(""),
+      lastName: new FormControl(""),
+      firstName: new FormControl(""),
+      nric: new FormControl(""),
+      maritalStatus: new FormControl(""),
+      completedBaclelorDegree: new FormControl(""),
+      malaysian: new FormControl(""),
+      ethnicity: new FormControl(""),
+      validMalaysiianVisa: new FormControl(""),
+      countryOfCitizen: new FormControl(""),
+      embassyForSev: new FormControl(""),
+      visaExpireDate: new FormControl(""),
+      passportExpireDate: new FormControl(""),
+      homePhone: new FormControl(""),
+      mobile: new FormControl(""),
+      email: new FormControl(""),
+      correspondenceAddress: new FormControl(""),
       town: new FormControl(""),
       postcode: new FormControl(""),
       state: new FormControl(""),
       country: new FormControl(""),
-      homeaddress: new FormControl(""),
-      town1: new FormControl(""),
-      postcode1: new FormControl(""),
-      state1: new FormControl(""),
-      country1: new FormControl(""),
+      permanentAddress: new FormControl(""),
+      permanentTown: new FormControl(""),
+      permanentPostcode: new FormControl(""),
+      permanentState: new FormControl(""),
+      permanentCountry: new FormControl(""),
    })
    this.initForm();
   }

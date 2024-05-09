@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .banner .image img {
-  width: 400px;
+  width: calc(350px + (450 - 350) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
 .section-a .title::after,
@@ -48,6 +48,7 @@
 .section-a .int-student .container,
 .section-f .container,
 .section-e .container,
+.section-e .doc,
 .section-h .left .form-control1,
 .section-i .form-control1,
 .section-d .question,
@@ -72,21 +73,21 @@
   display: flex;
 }
 .section-i .bottom{
+  justify-content: space-between;
   align-items: end;
-  gap: 60px;
 }
 .banner .top {
   justify-content: space-between;
-  gap: 38%;
 }
 
 .banner .top span {
+  display: block;
   color: #b2292d;
-  font-size: 42px;
+  font-size: calc(35px + (42 - 35) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
 .banner .top h1 {
-  font-size: 26px;
+  font-size: calc(22px + (26 - 22) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
 .banner .items ul {
@@ -98,7 +99,8 @@
   background-color: #d2d3d4;
 }
 .section-d .question,
-.banner .bototm{
+.banner .bototm,
+.section-d .bottom{
   gap: 30px;
 }
 .banner .bottom {
@@ -110,6 +112,7 @@
 .section-a input[type="text"],
 .section-i input[type="text"],
 .section-h input,
+.section-e input[type="text"],
 .section-g input,
 .section-g .contact form {
   width: 100%;
@@ -128,7 +131,7 @@
 }
 
 .banner form {
-  gap: 60px;
+  gap:  calc(20px + (80 - 20) * ((100vw - 1024px) / (1920 - 1024)));
   padding: 0 20px 10px;
 }
 
@@ -156,9 +159,8 @@
 
 }
 .banner .bottom .title {
-  width: 160px;
+  width: calc(130px + (160 - 130) * ((100vw - 1024px) / (1920 - 1024)));
   border-radius: 3px;
-  font-size: 18px;
   font-weight: 600;
   padding: 4px 20px;
 }
@@ -166,7 +168,7 @@
 .banner .form-control label,
 .banner .stamp,
 .section-a .bold {
-  font-size: 16px !important;
+  font-size: calc(13px + (16 - 13) * ((100vw - 1024px) / (1920 - 1024)));
   font-weight: 600;
 }
 
@@ -237,9 +239,11 @@
 .section-a .form1 .col2 .date {
   width: 63%;
 }
-
-.section-a .form1 .column1,
 .section-i .container  {
+  gap: 40px;
+}
+
+.section-a .form1 .column1  {
   gap: 80px;
 }
 
@@ -250,11 +254,15 @@
 .section-a .form1 .column3 .number {
   width: 40%;
 }
+.section-d input{
+  margin-left: 20px;
+}
 
 .section-a input[type="text"],
 .section-a .int-student input[type="checkbox"],
 .section-a .form2 label,
-.section-a .form1 p {
+.section-a .form1 p,
+.section-e input {
   margin-left: 10px;
 }
 
@@ -272,7 +280,9 @@
 .section-i .form-control1,
 .dashed-line,
 .section-a .line,
-.section-g .col2 {
+.section-g .col2,
+.section-f .container,
+.section-g li {
   margin-top: 10px;
 
 }
@@ -382,13 +392,7 @@
   padding: 4px;
 }
 
-.section-e .doc input {
-  margin-left: 20px;
-  width: 68%;
-  border-radius: 4px;
-}
 
-.section-e .doc p,
 .section-d .bottom span,
 .section-h .left span,
 .section-i form span,
@@ -406,13 +410,21 @@
 .section-a .line {
   background: #f0d4d5;
 }
-
+.section-i .form-control1,
+.section-h .form-control1{
+  padding: 0 0 20px 20px;
+}
 .section-g .contact,
 .section-i .verify,
 .section-i .bottom,
-.section-i .form-control1,
 .footer {
-  padding: 10px 20px;
+  padding: 5px 16px;
+}
+.section-g label{
+  width: 150px;
+}
+.section-f .text1{
+margin: 0;
 }
 
 .section-g .contact {
@@ -423,18 +435,17 @@
 .section-g .col2{
   gap: 15px;
 }
+.section-i span,
+.section-e .text{
+  font-size: calc(11px + (14 - 11) * ((100vw - 1024px) / (1920 - 1024)));
+}
 
 
-.section-g span,
-.section-i span {
-  font-size: 14px;
+.section-i span,
+.section-g span {
   font-weight: 400;
 }
 
-.section-h .left .form-control1 label {
-  width: 33%;
-}
-.section-d .bottom,
 .section-h .container,
 .banner .bottom{
   gap: 10px;
@@ -442,11 +453,18 @@
 .section-h .container {
   padding-top: 40px;
 }
-.section-h input,
 .section-g input,
-.section-i form input,
-.section-e .button input,
-.section-e .doc input
+.section-e .doc input{
+  padding: 4px;
+  border-radius: 4px;
+}
+.section-h .left .form-control1{
+  padding: 5px 5px 20px 5px;
+}
+.section-h .form-control input,
+.section-h .form-control2 input,
+.section-i form .form-control2 input,
+.section-e .button input
 {
   padding: 8px;
 }
@@ -467,7 +485,7 @@
 .section-h .right {
   padding: 10px;
 }
-.section-h .left .form-control1,
+
 .section-h .left .form-control2,
 .section-h .left .col1,
 .section-h .left .col2,
@@ -488,381 +506,37 @@
 
   background-color: #f0d4d5;
 }
-.section-i .form-control1 label {
-  width: 30%;
+.section-i .form-control1 span,
+.section-h .left span {
+
+  position: absolute;
+
+}
+
+.section-i p,
+.banner .instructions p,
+.banner .bottom .title,
+.banner li,
+.section-f p,
+.section-g li,
+.section-f label,
+.section-e .question p,
+.section-d p,
+.section-d label,
+.section-e label {
+  font-size: calc(15px + (19 - 15) * ((100vw - 1024px) / (1920 - 1024)))
 }
 .footer {
   margin-top: 10%;
   justify-content: space-around;
 
 }
-body{
-  background-color: #fff;
-}
-/* p{
-    margin: 0px;
-} */
-/* p b{
-    font-size: 17px;
-} */
-/* Section B CSS Code */
-.sectionB{
-  margin: 25px 10px;
-}
-.sectionB .intake{
-  padding: 12px;
-  background-color: #f0d4d5;
-  border-radius: 12px;
-  margin: 0px;
-}
-.intake label{
-  font-size: 20px;
-  margin: 0px;
-}
-input{
-  background-color: #dee5ff;
-  border-radius: 6px;
-  border: solid #dee5ff;
-}
-input:hover{
-  border: 2px solid #000;
-}
-input.semester{
-  width: 10%;
-  border-radius:6px;
-  border: solid 2px #ef3238;
-  margin: 0px;
-}
-label.year{
-  padding-left: 50px;
-  margin: 0px;
-}
-.text{
-  margin: 0px;
-}
-.text #small{
-  font-size: 13px;
-  margin: 10px 0px 5px 8px ;
-}
-.programmes{
-  padding: 17px;
-  background-color: #d2d3d3;
-  border-radius: 13px;
-  margin-top: 7px;
-}
-.programme{
-  display: flex;
-}
-.programme label{
-  width: 200px;
-}
-.programme p{
-  font-size: 17px;
-  margin: 0px;
-}
-.programme input{
-  width: 100%;
-}
-.programme .eg{
-  font-size: 10px;
-  margin: 3px;
-}
-#Specialisation{
-  display: flex;
-  margin-top: 13px;
-}
-.applying{
-  margin-top: 11px;
-}
-.applying b{
-  font-size: 18px;
-  margin: 10px auto auto 12px;
-}
-.applying label{
-  margin-left: 1px;
-}
-.applying p{
-  font-size: 12.7px;
-  margin:10px auto auto 12px;
-}
-.choices{
-  padding: 17px;
-  background-color: #d2d3d3;
-  border-radius: 13px;
-  margin:10px auto;
-}
-.choices p{
-  font-size: 17px;
-  margin: 0px;
-}
-.Complementary{
-  display: flex;
-  margin:14px auto;
-}
-.Complementary input{
-  width: 100%;
-}
-p.extension{
-  margin-left: 9px;
-  font-size: 17px;
-  width: 150px;
-  height: 37px;
-}
-.note{
-  margin:10px auto auto 12px;
-}
-.note p{
-  font-size: 12px;
-  margin-top:5px;
-}
-.postGraduate{
-  margin-top: 10px;
-  background-color: #f0d4d5;
-  padding: 12px 17px 20px 30px;
-  border-radius:12px ;
-  display: flex;
-}
-.firstHalf b{
-  font-size: 12.5px;
-  margin: 0px;
-}
-.sure{
-  display: flex;
-  align-items: center;
-  /* margin-top: 12px; */
-}
-.sure p b{
-  font-size: 17px;
-}
-.sure .yn{
-  margin-left: 7px;
-}
-#checkbox1{
-  margin-left: 35px;
-}
-#checkbox2{
-  margin-left: 10px;
-}
-.divider{
-  width: 2px;
-  height: 70px;
-  background-color: #b2292d;
-  margin-top: 5px;
-  margin-left: 25px;
-}
-.secondHalf{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.secondHalf b{
-  margin-left: 12px;
-}
-.tick{
-  margin-left: 10px;
+.footer a,
+.section-i .title1,
+.section-i label,
+.section-h label,
+.section-g label,
+.section-g span{
+  font-size: calc(16px + (20 - 16) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
-.SectionC{
-  margin: 25px 5px;
-}
-.text p{
-  font-size: 17px;
-  margin: 0px auto auto 8px;
-}
-.section-d .text p {
-  margin: 15px auto auto 3px;
-}
-.text p b{
-  margin-right: 2px;
-}
-.qualification{
-  margin-top: 20px;
-}
-.qualification .text p{
-  font-size: 13.7px;
-}
-.qualification .text p b{
-  font-size: 17px;
-}
-.Pre-requisite .text p{
-  font-size: 13.7px;
-}
-.Pre-requisite .text p b{
-  font-size: 17px;
-}
-.key{
-  display: flex;
-  align-items: center;
-}
-.qualification-body{
-  background-color: #d2d3d3;
-  padding: 10px 15px 12px 15px;
-  border-radius: 12px;
-}
-.key .p1{
-  width: 220px;
-}
-.key .p2{
-  width: 145px;
-}
-.key .p3{
-  width: 135px;
-}
-.key .p4{
-  width: 375px;
-}
-.key .p5{
-  width: 190px;
-}
-.p5 .tiny{
-  font-size: 12px;
-}
-.p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
-  margin: 0px;
-}
-#down p{
-  margin-top: 10px;
-}
-.question{
-  margin-top: 15px;
-
-}
-div.example{
-  background-color: #5a5a5d;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  font-size: 10px;
-  color: #fff;
-  padding: 3px;
-}
-.example .eg1{
-  width: 250px;
-  margin-left: 5px;
-}
-.example .eg2{
-  width: 160px;
-  margin-left: 5px;
-}
-.example .eg3{
-  width: 150px;
-  margin-left: 5px;
-}
-.example .eg4{
-  width: 430px;
-  margin-left: 5px;
-}
-.example .eg5{
-  width: 205px;
-  margin-left: 5px;
-}
-.divide{
-  height: 28px;
-  width: 2px;
-  background-color: #d2d3d3;
-}
-.key{
-  margin-bottom:6px;
-  display: flex;
-  align-items: center;
-}
-.key p{
-  margin-left: 3px;
-  color: #000000;
-  font-size: 14px;
-}
-.inputs{
-  margin-top: 15px;
-  height: 35px;
-  background-color: #fff;
-  border-radius: 3px;
-  align-items: center;
-  display: flex;
-}
-.inputs input{
-  background-color: #dee5ff;
-  border-color: #dee5ff;
-  border-style: solid;
-  margin: 2px;
-  height: 90%;
-  /* width: 99.5%; */
-}
-.inputs input:hover{
-  border-color : #000000;
-  border-style: solid;
-  background-color: #fff;
-}
-.inputs .in1{
-  width: 220px;
-}
-.inputs .in2{
-  width: 138px;
-}
-.inputs .in3{
-  width: 135px;
-}
-.inputs .in4{
-  width: 380px;
-}
-.inputs .in5{
-  width: 185px;
-}
-.Pre-requisite{
-  margin-top: 20px;
-}
-.Pre-requisite .example{
-  padding:10px 0;
-}
-.confirmation{
-  display: flex;
-  margin-top: 5px;
-}
-.confirmation b{
-  font-size: 17px;
-}
-.confirmation label{
-  margin-left: 5px;
-}
-.checkbox-round {
-  width: 1.3em;
-  height: 1.3em;
-  margin-left: 20px;
-  background-color: #dee5ff;
-  border-radius: 50%;
-  vertical-align: middle;
-  border: 1px solid #ddd;
-  appearance: none;
-  -webkit-appearance: none;
-  outline: none;
-  cursor: pointer;
-}
-.checkbox-round:hover{
-  border: #000000 solid 3px;
-}
-.checkbox-round:checked {
-  background-color: gray;
-}
-.twoC{
-  display: flex;
-}
-#left{
-  margin-left: -45px;
-}
-#width{
-  width: 400px;
-}
-#width1{
-  width: 335px;
-}
-#width2{
-  width: 285px;
-}
-.uni{
-  margin: 0px;
-}
-.width label{
-  width: 450px;
-}
-#full{
-  width: 50%;
-}

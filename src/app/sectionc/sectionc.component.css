@@ -2,66 +2,66 @@
 .SectionC{
   margin: 25px 5px;
 }
-.text p{
+.SectionC .text p{
   font-size: 17px;
   margin: 0px auto auto 8px;
 }
-.text p b{
+.SectionC .text p b{
   margin-right: 2px;
 }
-.qualification{
+.SectionC .qualification{
   margin-top: 20px;
 }
-.qualification .text p{
+.SectionC .qualification .text p{
   font-size: 13.7px;
 }
-.qualification .text p b{
+.SectionC .qualification .text p b{
   font-size: 17px;
 }
-.Pre-requisite .text p{
+.SectionC .Pre-requisite .text p{
   font-size: 13.7px;
 }
-.Pre-requisite .text p b{
+.SectionC .Pre-requisite .text p b{
   font-size: 17px;
 }
-.key{
+.SectionC .key{
   display: flex;
   align-items: center;
 }
-.qualification-body{
+.SectionC .qualification-body{
   background-color: #d2d3d3;
   padding: 10px 15px 12px 15px;
   border-radius: 12px;
 }
-.key .p1{
+.SectionC .key .p1{
   width: 220px;
 }
-.key .p2{
+.SectionC .key .p2{
   width: 145px;
 }
-.key .p3{
+.SectionC .key .p3{
   width: 135px;
 }
-.key .p4{
+.SectionC .key .p4{
   width: 375px;
 }
-.key .p5{
+.SectionC .key .p5{
   width: 190px;
 }
-.p5 .tiny{
+.SectionC .p5 .tiny{
   font-size: 12px;
 }
-.p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
+.SectionC .p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
   margin: 0px;
 }
 #down p{
   margin-top: 10px;
 }
-.question{
+.SectionC .question{
   margin-top: 15px;
 
 }
-div.example{
+.SectionC .example{
   background-color: #5a5a5d;
   border-radius: 10px;
   display: flex;
@@ -70,42 +70,42 @@ div.example{
   color: #fff;
   padding: 3px;
 }
-.example .eg1{
+.SectionC .example .eg1{
   width: 250px;
   margin-left: 5px;
 }
-.example .eg2{
+.SectionC .example .eg2{
   width: 160px;
   margin-left: 5px;
 }
-.example .eg3{
+.SectionC .example .eg3{
   width: 150px;
   margin-left: 5px;
 }
-.example .eg4{
+.SectionC .example .eg4{
   width: 430px;
   margin-left: 5px;
 }
-.example .eg5{
+.SectionC .example .eg5{
   width: 205px;
   margin-left: 5px;
 }
-.divide{
+.SectionC .divide{
   height: 28px;
   width: 2px;
   background-color: #d2d3d3;
 }
-.key{
+.SectionC .key{
   margin-bottom:6px;
   display: flex;
   align-items: center;
 }
-.key p{
+.SectionC .key p{
   margin-left: 3px;
   color: #000000;
   font-size: 14px;
 }
-.inputs{
+.SectionC .inputs{
   margin-top: 15px;
   height: 35px;
   background-color: #fff;
@@ -113,7 +113,7 @@ div.example{
   align-items: center;
   display: flex;
 }
-.inputs input{
+.SectionC .inputs input{
   background-color: #dee5ff;
   border-color: #dee5ff;
   border-style: solid;
@@ -121,43 +121,43 @@ div.example{
   height: 90%;
   /* width: 99.5%; */
 }
-.inputs input:hover{
+.SectionC .inputs input:hover{
   border-color : #000000;
   border-style: solid;
   background-color: #fff;
 }
-.inputs .in1{
+.SectionC .inputs .in1{
   width: 220px;
 }
-.inputs .in2{
+.SectionC .inputs .in2{
   width: 138px;
 }
-.inputs .in3{
+.SectionC .inputs .in3{
   width: 135px;
 }
-.inputs .in4{
+.SectionC .inputs .in4{
   width: 380px;
 }
-.inputs .in5{
+.SectionC .inputs .in5{
   width: 185px;
 }
-.Pre-requisite{
+.SectionC .Pre-requisite{
   margin-top: 20px;
 }
-.Pre-requisite .example{
+.SectionC .Pre-requisite .example{
   padding:10px 0;
 }
-.confirmation{
+.SectionC .confirmation{
   display: flex;
   margin-top: 5px;
 }
-.confirmation b{
+.SectionC .confirmation b{
   font-size: 17px;
 }
-.confirmation label{
+.SectionC .confirmation label{
   margin-left: 5px;
 }
-.checkbox-round {
+.SectionC .checkbox-round {
   width: 1.3em;
   height: 1.3em;
   margin-left: 20px;
@@ -170,7 +170,7 @@ div.example{
   outline: none;
   cursor: pointer;
 }
-.checkbox-round:hover{
+ .checkbox-round:hover{
   border: #000000 solid 3px;
 }
 .checkbox-round:checked {

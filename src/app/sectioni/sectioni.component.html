@@ -35,23 +35,23 @@
         to the sponsor and/or my parents and upon request.
       </p>
       <p>
+        <input type="checkbox" id="" name="" value="" />
         I agree to abide by the statuses, regulation and policies of Taylor’s at
         all times
       </p>
-      <form #checkboxForm="ngForm">
         <p>
-          <input type="checkbox" id="" name="" value="" [(ngModel)]="isChecked" required/>
+          <input type="checkbox" id="" name="" value=""/>
           I have read and understood all the above conditions and agree to fully
           accept them.
         </p>
-
-      <p>
-        <input type="checkbox" id="" name="" value="" />
-        I have read and understood the Personal Data Protection Notice provided
-        by Taylor’s at https://university.taylors.edu.my/en/pdpa.html. I hereby
-        give consent to Taylor’s to process my personal data in accordance with
-        the Personal Data Protection Notice.
-      </p>
+        <p>
+          <input type="checkbox"  name="" value="" />
+          I have read and understood the Personal Data Protection Notice provided
+          by Taylor’s at <span> https://university.taylors.edu.my/en/pdpa.html.</span>
+          I hereby give consent to Taylor’s to process my child/ward's personal
+          data in accordance with the Personal Data Protection Notice.
+        </p>
+   
       <div class="verify">
         <p class="title2">
           Taylor's Verify
@@ -74,14 +74,8 @@
           to having my parchment information included in the Taylor’s Verify
           service.
         </p>
-
       </div>
-      @if (checkboxForm.form.invalid && checkboxForm.form.touched){
-        <div class="text-danger">
-          You must accept the terms and conditions
-        </div>
-      }
-    </form>
+  
       <form [formGroup]="userForm">
         <div class="form-control1">
           <label for="name">
@@ -156,7 +150,7 @@
           <span>(excluding external award programmes)</span>
         </p>
         <p>
-          &#64; In our bid to counter the burgeoning use of fraudulent academic
+          In our bid to counter the burgeoning use of fraudulent academic
           credentials and counterfeit degrees, Taylor’s provides an online
           service called Taylor’s Verify to allow potential employers and/or
           sponsors to instantly verify the authenticity of the parchments of
@@ -194,9 +188,7 @@
       </form>
     </div>
   </div>
-  <div>
-    <button>submit</button>
-  </div>
+ 
   <div class="footer">
     <div class="email">
       <a herf=" applications@taylors.edu.my">
