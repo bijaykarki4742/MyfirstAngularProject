@@ -212,6 +212,8 @@
 }
 
 .section-a .column2 .form-control,
+.section-a .form1 .column2 label,
+.section-a .form1 .column2 .input1,
 .section-a  .column3 .form-control,
 .section-a .form2 .column4 .form-control,
 .section-a .form2 .column5 .form-control,
@@ -229,14 +231,7 @@
   width: 50%;
 }
 .section-a .full-name label {
-  width: 14%;
-}
-
-.section-a .form1 .column2 .label1{
-width: 80%;
-}
-.section-a .form1 .column2 .label2{
-  width: 43%;
+  width: 15%;
 }
 
 .section-a .column5 {
@@ -245,17 +240,17 @@ width: 80%;
 
 .section-a .form1 .column3 p
 {
-  width: 40%;
+  width: 45%;
 }
 .section-a .form1 .col2 .date {
-  width:63%;
+  width:calc(90% + (70 - 90) * ((100vw - 1024px) / (1920 - 1024)));
 }
 .section-i .container  {
   gap: 40px;
 }
 
 .section-a .form1 .column1  {
-  gap: 120px;
+  gap: 125px;
 }
 
 .section-a .form1 .col2 {
@@ -263,7 +258,7 @@ width: 80%;
 }
 
 .section-a .form1 .column3 .number {
-  width: 35%;
+  width: 38%;
 }
 .section-d input{
   margin-left:  calc(0px + (20 - 0) * ((100vw - 1024px) / (1920 - 1024)));
