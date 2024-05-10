@@ -165,7 +165,7 @@
 
 }
 .banner .bottom .title {
-  width: calc(130px + (160 - 130) * ((100vw - 1024px) / (1920 - 1024)));
+  width: calc(150px + (170 - 150) * ((100vw - 1024px) / (1920 - 1024)));
   border-radius: 3px;
   font-weight: 600;
   padding: 4px 20px;
@@ -225,8 +225,9 @@
 .section-g h3,
 .section-h h3,
 .section-i h3 {
+  font-size: calc(16px + (18 - 16) * ((100vw - 1024px) / (1920 - 1024)));
   padding: 3px 20px;
-  width: 580px;
+  width: calc(400px + (580 - 400) * ((100vw - 1024px) / (1920 - 1024)));
   border-radius: 10px;
   background: #b2292d;
 }
@@ -298,13 +299,8 @@ width:  180px;
   margin-left: 10px;
 }
 
-.section-a .column2 input,
+.section-a .form1 .column2 input,
 .section-a .form2,
-.section-a .form2 .column1,
-.section-a .form2 .column3,
-.section-a .form2 .column4,
-.section-a .form2 .column5,
-.section-a .form2 .address,
 .section-h .left .form-control2,
 .section-h .left .col1,
 .section-h .left .col2,
@@ -565,12 +561,19 @@ width:  180px;
 #width{
   width: 400px;
 }
-#width1{
-  width: 335px;
-}
 #width2{
   width: 285px;
 }
+.section-a .form2 .right label{
+  width: 335px;
+}
+.section-a .form2 .right{
+  width: 65%;
+}
+.section-a .form2 .left{
+  width: 35%;
+}
+
 .uni,
 .section-f .text1,
 .section-a .int-student .type{
