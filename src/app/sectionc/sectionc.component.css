@@ -1,9 +1,8 @@
-
 .SectionC{
   margin: 25px 5px;
 }
 .SectionC .text p{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));;
   margin: 0px auto auto 8px;
 }
 .SectionC .text p b{
@@ -13,16 +12,16 @@
   margin-top: 20px;
 }
 .SectionC .qualification .text p{
-  font-size: 13.7px;
+  font-size: calc(13.7px + (15.7 - 13.7) * ((100vw - 1024px) / (1920 - 1024)));;
 }
 .SectionC .qualification .text p b{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));;
 }
 .SectionC .Pre-requisite .text p{
   font-size: 13.7px;
 }
 .SectionC .Pre-requisite .text p b{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));;
 }
 .SectionC .key{
   display: flex;
@@ -49,7 +48,7 @@
   width: 17.59%;
 }
 .SectionC .p5 .tiny{
-  font-size: 12px;
+  font-size: calc(11px + (13 - 11) * ((100vw - 1024px) / (1920 - 1024)));
 }
 .SectionC .p1 ,.p2,.p3,.p4, .p5.tiny, .p5 p{
   margin: 0px;
@@ -66,7 +65,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: calc(10px + (12 - 10) * ((100vw - 1024px) / (1920 - 1024)));;
   color: #fff;
   padding: 3px;
 }
@@ -103,7 +102,7 @@
 .SectionC .key p{
   margin-left: 3px;
   color: #000000;
-  font-size: 14px;
+  font-size: calc(14px + (16 - 14) * ((100vw - 1024px) / (1920 - 1024)));;
 }
 .SectionC .inputs{
   margin-top: 15px;
@@ -152,7 +151,7 @@
   margin-top: 5px;
 }
 .SectionC .confirmation b{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));
 }
 .SectionC .confirmation label{
   margin-left: 5px;

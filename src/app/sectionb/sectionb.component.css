@@ -1,3 +1,4 @@
+
 .sectionB{
   margin: 25px 10px;
 }
@@ -8,7 +9,7 @@
   margin: 0px;
 }
 .sectionB .intake label{
-  font-size: 20px;
+  font-size: calc(20px + (22 - 20) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 0px;
 }
 .sectionB input{
@@ -33,7 +34,7 @@
   margin: 0px;
 }
 .sectionB .text #small{
-  font-size: 13px;
+  font-size: calc(13px + (15 - 13) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 10px 0px 5px 8px ;
 }
 .sectionB .programmes{
@@ -49,14 +50,14 @@
   width: 200px;
 }
 .sectionB .programme p{
-  font-size: 17px;
+  font-size:calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 0px;
 }
 .sectionB .programme input{
   width: 100%;
 }
 .sectionB .programme .eg{
-  font-size: 10px;
+  font-size: calc(10px + (12 - 10) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 3px;
 }
 #Specialisation{
@@ -67,14 +68,14 @@
   margin-top: 11px;
 }
 .sectionB .applying b{
-  font-size: 18px;
+  font-size: calc(18px + (20 - 18) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 10px auto auto 12px;
 }
 .sectionB .applying label{
   margin-left: 1px;
 }
 .sectionB .applying p{
-  font-size: 12.7px;
+  font-size: calc(12.5px + (14 - 12.5) * ((100vw - 1024px) / (1920 - 1024)));
   margin:10px auto auto 12px;
 }
 .sectionB .choices{
@@ -84,7 +85,7 @@
   margin:10px auto;
 }
 .sectionB .choices p{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 0px;
 }
 .sectionB .Complementary{
@@ -96,7 +97,7 @@
 }
 p.extension{
   margin-left: 9px;
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));
   width: 150px;
   height: 37px;
 }
@@ -104,7 +105,7 @@ p.extension{
   margin:10px auto auto 12px;
 }
 .sectionB .note p{
-  font-size: 12px;
+  font-size: calc(12px + (14 - 12) * ((100vw - 1024px) / (1920 - 1024)));
   margin-top:5px;
 }
 .sectionB .postGraduate{
@@ -115,7 +116,7 @@ p.extension{
   display: flex;
 }
 .sectionB .firstHalf b{
-  font-size: 12.5px;
+  font-size: calc(12.5px + (15.5 - 12.5) * ((100vw - 1024px) / (1920 - 1024)));
   margin: 0px;
 }
 .sectionB .sure{
@@ -124,7 +125,7 @@ p.extension{
   /* margin-top: 12px; */
 }
 .sectionB .sure p b{
-  font-size: 17px;
+  font-size: calc(17px + (19 - 17) * ((100vw - 1024px) / (1920 - 1024)));
 }
 .sectionB .sure .yn{
   margin-left: 7px;

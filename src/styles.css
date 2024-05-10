@@ -287,7 +287,7 @@ width:  180px;
 }
 
 .section-a input[type="text"],
-.section-a input[type="radio" i], 
+.section-a input[type="radio" i],
 .section-a input[type="checkbox" i],
 .section-a .form2 label,
 .section-a .form1 p,
@@ -300,11 +300,11 @@ width:  180px;
 
 .section-a .column2 input,
 .section-a .form2,
-.section-a .form2 .column1,
-.section-a .form2 .column3,
-.section-a .form2 .column4,
-.section-a .form2 .column5,
-.section-a .form2 .address,
+/*.section-a .form2 .column1,*/
+/*.section-a .form2 .column3,*/
+/*.section-a .form2 .column4,*/
+/*.section-a .form2 .column5,*/
+/*.section-a .form2 .address,*/
 .section-h .left .form-control2,
 .section-h .left .col1,
 .section-h .left .col2,
@@ -318,7 +318,9 @@ width:  180px;
   margin-top: 10px;
 
 }
-
+.section-a .form2 .address{
+  margin: 0px;
+}
 .section-a .form2 .address label {
   width: 21%;
 }
@@ -582,3 +584,4 @@ width:  180px;
 #full{
   width: 50%;
 }
+
