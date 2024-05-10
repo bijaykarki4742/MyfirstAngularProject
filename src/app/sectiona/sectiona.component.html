@@ -155,16 +155,16 @@
           <input type="checkbox" id="no" name="no" value="no" formControlName="validMalaysianVisa"  />
           <label for="no">No</label>
         </p>
-        <p>
-          If yes, indicate type of visa/pass:
+        <p class="type">
+         <label> If yes, indicate type of visa/pass:</label>
           <input type="text" name="name" value="" class="input1" formControlName="typesOfVisa" />
-          <span
-            >(e.g. social visit/student/dependent/diplomatic/MM2H/employment
-            pass)</span
-          >
         </p>
-        <p>
-          Visa/Pass expire date:
+        <span
+        >(e.g. social visit/student/dependent/diplomatic/MM2H/employment
+        pass)</span>
+        <p class="visa">
+          <label>
+          Visa/Pass expire date:</label>
           <input
             class="input2"
             type="text"
@@ -175,8 +175,9 @@
         </p>
       </div>
       <div class="col-2">
-        <p>
-          Country of Citizenship (Nationality):
+        <p class="citizen">
+          <label >
+          Country of Citizenship (Nationality): </label>
           <input type="text" name="name" value="" class="input1" formControlName="countryOfCitizen" />
         </p>
         <p>
@@ -186,12 +187,14 @@
           <input type="checkbox" id="no" name="no" value="no" formControlName="singleEntryVisa"  />
           <label for="no">No</label>
         </p>
-        <p>
-          Nearest embassy for SEV:
+        <p class="embassy">
+          <label>
+          Nearest embassy for SEV: </label>
           <input type="text" name="name" value="" class="input2" formControlName="embassyForSev" />
         </p>
-        <p>
-          Passport expire date:
+        <p class="expire">
+          <label>
+          Passport expire date: </label>
           <input
             type="text"
             name="name"
@@ -249,7 +252,7 @@
       <input name="address" type="text" formControlName="correspondenceAddress">
     </div>
     <div class="column2">
-      <div style="width: 65%;" class="form-control">
+      <div  class="form-control">
         <label id="width1" for="name" class="bold">
           <p>Town/City:</p>
         </label>
@@ -263,7 +266,7 @@
     </div>
     <div class="column3">
       <div class="form-control">
-        <label style="width: 400px;" for="name" class="bold">
+        <label  for="name" class="bold">
           <p>State:</p></label>
         <input name="name" type="text" formControlName="state">
       </div>

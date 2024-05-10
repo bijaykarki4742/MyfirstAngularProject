@@ -49,6 +49,11 @@
 .section-a .form-control,
 .section-a .form1 .col2,
 .section-a .int-student .container,
+.section-a .int-student .visa,
+.section-a .int-student .embassy,
+.section-a .int-student .type,
+.section-a .int-student .expire,
+.section-a .int-student .citizen,
 .section-f .container,
 .section-e .container,
 .section-e .doc,
@@ -196,6 +201,21 @@
   height: 132px;
 }
 
+.section-a .int-student .type label{
+  width: calc(510px + (440 - 510) * ((100vw - 1024px) / (1920 - 1024)));
+}
+.section-a .int-student .visa label{
+  width: 260px;
+}
+.section-a .int-student .citizen label{
+  width: calc(610px + (510 - 610) * ((100vw - 1024px) / (1920 - 1024)));
+}
+.section-a .int-student .embassy label{
+  width: calc(340px + (320 - 340) * ((100vw - 1024px) / (1920 - 1024)));
+}
+.section-a .int-student .expire label{
+  width: 240px;
+}
 .section-a h3,
 .section-b h3,
 .section-c h3,
@@ -212,7 +232,6 @@
 }
 
 .section-a .column2 .form-control,
-.section-a .form1 .column2 label,
 .section-a .form1 .column2 .input1,
 .section-a  .column3 .form-control,
 .section-a .form2 .column4 .form-control,
@@ -231,26 +250,29 @@
   width: 50%;
 }
 .section-a .full-name label {
-  width: 15%;
+width:  180px;
 }
 
+.section-a .form1 .column2 label{
+  width:  calc(365px + (350 - 365) * ((100vw - 1024px) / (1920 - 1024)));
+}
 .section-a .column5 {
   gap: 50px;
 }
 
 .section-a .form1 .column3 p
 {
-  width: 45%;
+  width: calc(500px + (300 - 500) * ((100vw - 1024px) / (1920 - 1024)));
 }
 .section-a .form1 .col2 .date {
-  width:calc(90% + (70 - 90) * ((100vw - 1024px) / (1920 - 1024)));
+  width: 200px;
 }
 .section-i .container  {
   gap: 40px;
 }
 
 .section-a .form1 .column1  {
-  gap: 125px;
+  gap: calc(110px + (125 - 110) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
 .section-a .form1 .col2 {
@@ -258,7 +280,7 @@
 }
 
 .section-a .form1 .column3 .number {
-  width: 38%;
+  width: 250px;
 }
 .section-d input{
   margin-left:  calc(0px + (20 - 0) * ((100vw - 1024px) / (1920 - 1024)));
@@ -299,18 +321,6 @@
 
 .section-a .form2 .address label {
   width: 21%;
-}
-
-.section-a .int-student .input1 {
-  width: 43%;
-}
-
-.section-a .int-student .input2 {
-  width: 58%;
-}
-
-.section-a .int-student .input3 {
-  width: 65%;
 }
 
 .section-a .column6,
@@ -429,9 +439,6 @@
 .section-g label{
   width: 150px;
 }
-.section-f .text1{
-margin: 0;
-}
 
 .section-g .contact {
   margin-top: 30px;
@@ -531,7 +538,9 @@ margin: 0;
 .section-d label,
 .section-e label,
 .section-a label,
-.section-a p {
+.section-a p,
+.section-a .int-student p,
+.section-a .int-student label {
   font-size: calc(15px + (19 - 15) * ((100vw - 1024px) / (1920 - 1024)))
 }
 .footer {
@@ -562,7 +571,9 @@ margin: 0;
 #width2{
   width: 285px;
 }
-.uni{
+.uni,
+.section-f .text1,
+.section-a .int-student .type{
   margin: 0px;
 }
 .width label{
