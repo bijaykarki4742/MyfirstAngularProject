@@ -34,19 +34,19 @@
   border-radius: 12px;
 }
 .SectionC .key .p1{
-  width: 220px;
+  width: 20.71%;
 }
 .SectionC .key .p2{
-  width: 145px;
+  width: 13.66%;
 }
 .SectionC .key .p3{
-  width: 135px;
+  width: 12.70%;
 }
 .SectionC .key .p4{
-  width: 375px;
+  width: 35.33%;
 }
 .SectionC .key .p5{
-  width: 190px;
+  width: 17.59%;
 }
 .SectionC .p5 .tiny{
   font-size: 12px;
@@ -71,23 +71,23 @@
   padding: 3px;
 }
 .SectionC .example .eg1{
-  width: 250px;
+  width: 20.90%;
   margin-left: 5px;
 }
 .SectionC .example .eg2{
-  width: 160px;
+  width: 13.39%;
   margin-left: 5px;
 }
 .SectionC .example .eg3{
-  width: 150px;
+  width: 13.1%;
   margin-left: 5px;
 }
 .SectionC .example .eg4{
-  width: 430px;
+  width: 36.01%;
   margin-left: 5px;
 }
 .SectionC .example .eg5{
-  width: 205px;
+  width: 17.6%;
   margin-left: 5px;
 }
 .SectionC .divide{
@@ -121,25 +121,25 @@
   height: 90%;
   /* width: 99.5%; */
 }
-.SectionC .inputs input:hover{
-  border-color : #000000;
-  border-style: solid;
-  background-color: #fff;
-}
+/*.SectionC .inputs input:hover{*/
+/*  border-color : #000000;*/
+/*  border-style: solid;*/
+/*  background-color: #fff;*/
+/*}*/
 .SectionC .inputs .in1{
-  width: 220px;
+  width: 20.79%;
 }
 .SectionC .inputs .in2{
-  width: 138px;
+  width: 13.04%;
 }
 .SectionC .inputs .in3{
-  width: 135px;
+  width: 12.76%;
 }
 .SectionC .inputs .in4{
-  width: 380px;
+  width: 35.94%;
 }
 .SectionC .inputs .in5{
-  width: 185px;
+  width: 17.47%;
 }
 .SectionC .Pre-requisite{
   margin-top: 20px;
