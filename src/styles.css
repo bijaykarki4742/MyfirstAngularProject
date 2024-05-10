@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  font-family: sans-serif;
+}
 .banner .image img {
   width: calc(350px + (450 - 350) * ((100vw - 1024px) / (1920 - 1024)));
 }
@@ -549,4 +552,27 @@ margin: 0;
 .section-g span{
   font-size: calc(16px + (20 - 16) * ((100vw - 1024px) / (1920 - 1024)));
 }
-
+.twoC{
+  display: flex;
+}
+#left{
+  margin-left: -45px;
+}
+#width{
+  width: 400px;
+}
+#width1{
+  width: 335px;
+}
+#width2{
+  width: 285px;
+}
+.uni{
+  margin: 0px;
+}
+.width label{
+  width: 450px;
+}
+#full{
+  width: 50%;
+}
