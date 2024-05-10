@@ -252,7 +252,7 @@ width: 80%;
 }
 
 .section-a .form1 .column1  {
-  gap: 80px;
+  gap: 120px;
 }
 
 .section-a .form1 .col2 {
@@ -267,8 +267,8 @@ width: 80%;
 }
 
 .section-a input[type="text"],
-.section-a input [type="radio"],
-.section-a .int-student input[type="checkbox"],
+.section-a input[type="radio" i], 
+.section-a input[type="checkbox" i],
 .section-a .form2 label,
 .section-a .form1 p,
 .section-a .form1 .full-name label,
