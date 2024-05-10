@@ -118,9 +118,7 @@
   width: 100%;
 }
 
-.section-a .form1 .col2 .date {
-  width: 60%;
-}
+
 
 .section-d .text p,
 .section-f .text1,
@@ -166,15 +164,12 @@
 }
 
 .banner .form-control label,
-.banner .stamp,
-.section-a .bold {
+.banner .stamp {
   font-size: calc(13px + (16 - 13) * ((100vw - 1024px) / (1920 - 1024)));
   font-weight: 600;
 }
 
-.section-a .full-name label {
-  width: 14%;
-}
+
 
 .banner input {
   padding: 15px;
@@ -230,14 +225,27 @@
 .section-h .col2 .form-control  {
   width: 50%;
 }
+.section-a .full-name label {
+  width: 14%;
+}
+
+.section-a .form1 .column2 .label1{
+width: 80%;
+}
+.section-a .form1 .column2 .label2{
+  width: 43%;
+}
 
 .section-a .column5 {
   gap: 50px;
 }
 
-.section-a .form1 .column3 p,
+.section-a .form1 .column3 p
+{
+  width: 40%;
+}
 .section-a .form1 .col2 .date {
-  width: 63%;
+  width:63%;
 }
 .section-i .container  {
   gap: 40px;
@@ -252,16 +260,20 @@
 }
 
 .section-a .form1 .column3 .number {
-  width: 40%;
+  width: 35%;
 }
 .section-d input{
-  margin-left: 20px;
+  margin-left:  calc(0px + (20 - 0) * ((100vw - 1024px) / (1920 - 1024)));
 }
 
 .section-a input[type="text"],
+.section-a input [type="radio"],
 .section-a .int-student input[type="checkbox"],
 .section-a .form2 label,
 .section-a .form1 p,
+.section-a .form1 .full-name label,
+.section-a .form1 .column2 label,
+.section-a .column3 .number,
 .section-e input {
   margin-left: 10px;
 }
@@ -374,14 +386,10 @@
 .section-h label,
 .section-h p,
 .section-h .left span,
-.section-i form span
+.section-i form span,
+.section-a .bold
 {
   font-weight: 600;
-}
-
-.section-h p {
-  font-size: 13px;
-
 }
 
 .section-d .question {
@@ -523,7 +531,9 @@ margin: 0;
 .section-e .question p,
 .section-d p,
 .section-d label,
-.section-e label {
+.section-e label,
+.section-a label,
+.section-a p {
   font-size: calc(15px + (19 - 15) * ((100vw - 1024px) / (1920 - 1024)))
 }
 .footer {
