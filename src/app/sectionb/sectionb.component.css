@@ -147,6 +147,7 @@ p.extension{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .sectionB .secondHalf b{
   margin-left: 12px;

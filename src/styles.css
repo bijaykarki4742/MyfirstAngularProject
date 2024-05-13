@@ -74,6 +74,9 @@
   align-items: center;
   display: flex;
 }
+.section-d .bottom{
+  flex-wrap: wrap;
+}
 .section-i .container,
 .banner .bottom,
 .section-i .bottom,
@@ -301,14 +304,6 @@ width:  180px;
 
 .section-a .form1 .column2 input,
 .section-a .form2,
-<<<<<<< HEAD
-=======
-/*.section-a .form2 .column1,*/
-/*.section-a .form2 .column3,*/
-/*.section-a .form2 .column4,*/
-/*.section-a .form2 .column5,*/
-/*.section-a .form2 .address,*/
->>>>>>> 65006e853d8c3b3a387f9798d88b4451a9444498
 .section-h .left .form-control2,
 .section-h .left .col1,
 .section-h .left .col2,
@@ -569,13 +564,13 @@ width:  180px;
   margin-left: -45px;
 }
 #width{
-  width: 400px;
+  width: 69%;
 }
 #width2{
-  width: 285px;
+  width: 24.7%;
 }
 .section-a .form2 .right label{
-  width: 335px;
+  width: 44.7%;
 }
 .section-a .form2 .right{
   width: 65%;
@@ -592,7 +587,19 @@ width:  180px;
 .width label{
   width: 450px;
 }
-#full{
+#half, .section-a .form-control .column1{
   width: 50%;
 }
+.section-d .bottom .input2{
+  width: 100px;
+  margin-left: 10px;
+/*.section-d .label1{*/
+}.section-d .bottom input {
+   margin-left: 10px;
+ }
+ .section-d .bottom label{
+   margin-left: 10px;
+ }
+/*  width: 90px;*/
+/*}*/
 

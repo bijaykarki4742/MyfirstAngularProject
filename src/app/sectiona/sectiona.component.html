@@ -209,9 +209,10 @@
   </form>
   <form class="form2" [formGroup]="userForm">
     <div class="column1">
-      <div class="form-control">
-        <label id="width" for="name" class="bold label1">
-          <p>Home Phone:</p></label>
+      <div id="half" class="form-control">
+          <label id="width" for="name" class="bold label1">
+          <p>Home Phone:</p>
+          </label>
         <input
           type="text"
           id="text"
@@ -220,7 +221,7 @@
         >
 
       </div>
-      <div id="full" class="form-control">
+      <div id="half" class="form-control">
         <label  for="mobile" class="bold">Mobile:</label>
         <input class="full"
                type="text"
@@ -240,15 +241,14 @@
         name="mail"
         value="" formControlName="email"
       >
-
     </div>
     <div class="form-control address">
-      <label id="width2" for="address" class="bold">
-        <p class="uni">
-          Correspondence address:
-          <span>(address for the university to <br> post/mail all correspondence)</span>
-        </p>
-      </label>
+        <label id="width2" for="address" class="bold">
+          <p class="uni">
+            Correspondence address:
+            <span>(address for the university to post mail all correspondence)</span>
+          </p>
+        </label>
       <input name="address" type="text" formControlName="correspondenceAddress">
     </div>
     <div class="column2">
@@ -280,7 +280,7 @@
       <label id="width2" for="address" class="bold">
         <p class="uni">
           Parmanent address:
-          <span>(if different from above and should<br>not be the same as your agent)</span>
+          <span>(if different from above and should not be the same as your agent)</span>
         </p>
       </label>
       <input name="address" type="text" formControlName="permanentAddress">
